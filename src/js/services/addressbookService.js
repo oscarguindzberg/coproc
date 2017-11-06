@@ -1,16 +1,16 @@
 'use strict';
 
-angular.module('copayApp.services').factory('addressbookService', function($log, bitcore, bitcoreCash, storageService, lodash) {
+angular.module('copayApp.services').factory('addressbookService', function($log, bitcore, storageService, lodash) {
   var root = {};
 
   var getNetwork = function(address) {
     var network;
-    try {
+    //try {
       network = (new bitcore.Address(address)).network.name;
-    } catch(e) {
-      $log.warn('No valid bitcoin address. Trying bitcoin cash...');
-      network = (new bitcoreCash.Address(address)).network.name;
-    }
+    //} catch(e) {
+      //$log.warn('No valid bitcoin address. Trying bitcoin cash...');
+      //network = (new bitcoreCash.Address(address)).network.name;
+    //}
     return network;
   };
 

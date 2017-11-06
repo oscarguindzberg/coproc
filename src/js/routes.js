@@ -331,7 +331,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         },
         params: {
-          coin: 'btc'
+          coin: 'proc'
         }
       })
       .state('tabs.add.join', {
@@ -930,7 +930,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
-      .state('tabs.buyandsell.glidera', {
+      /*.state('tabs.buyandsell.glidera', {
         url: '/glidera/:code',
         views: {
           'tab-home@tabs': {
@@ -940,7 +940,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         },
         params: {
-          coin: 'btc',
+          coin: 'proc',
         }
       })
       .state('tabs.buyandsell.glidera.amount', {
@@ -978,7 +978,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             templateUrl: 'views/preferencesGlidera.html'
           }
         }
-      })
+      })*/
 
       /*
        *
@@ -986,7 +986,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
-      .state('tabs.buyandsell.coinbase', {
+      /*.state('tabs.buyandsell.coinbase', {
         url: '/coinbase/:code',
         views: {
           'tab-home@tabs': {
@@ -996,7 +996,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         },
         params: {
-          coin: 'btc',
+          coin: 'proc',
         }
       })
       .state('tabs.preferences.coinbase', {
@@ -1034,7 +1034,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             templateUrl: 'views/sellCoinbase.html'
           }
         }
-      })
+      })*/
 
       /*
        *
@@ -1085,7 +1085,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         params: {
           nextStep: 'tabs.giftcards.mercadoLibre.buy',
           currency: 'BRL',
-          coin: 'btc',
+          coin: 'proc',
           fixedUnit: 1,
         }
       })
@@ -1105,7 +1105,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
-      .state('tabs.giftcards.amazon', {
+      /*.state('tabs.giftcards.amazon', {
         url: '/amazon',
         views: {
           'tab-home@tabs': {
@@ -1137,7 +1137,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         params: {
           nextStep: 'tabs.giftcards.amazon.buy',
           currency: 'USD',
-          coin: 'btc',
+          coin: 'proc',
           fixedUnit: true,
         }
       })
@@ -1149,7 +1149,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             templateUrl: 'views/buyAmazon.html'
           }
         }
-      })
+      })*/
 
       /*
        *
@@ -1157,7 +1157,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
-      .state('tabs.bitpayCardIntro', {
+      /*.state('tabs.bitpayCardIntro', {
         url: '/bitpay-card-intro/:secret/:email/:otp',
         views: {
           'tab-home@tabs': {
@@ -1178,7 +1178,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
         params: {
           id: null,
           currency: 'USD',
-          coin: 'btc',
+          coin: 'proc',
           useSendMax: null
         }
       })
@@ -1208,9 +1208,9 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             templateUrl: 'views/preferencesBitpayServices.html'
           }
         }
-      });
+      })*/;
   })
-  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, /* plugins START HERE => */ coinbaseService, glideraService, amazonService, bitpayCardService, applicationService, mercadoLibreService) {
+  .run(function($rootScope, $state, $location, $log, $timeout, startupService, ionicToast, fingerprintService, $ionicHistory, $ionicPlatform, $window, appConfigService, lodash, platformInfo, profileService, uxLanguage, gettextCatalog, openURLService, storageService, scannerService, configService, emailService, applicationService /* plugins START HERE => */ ) {
 
     uxLanguage.init();
 

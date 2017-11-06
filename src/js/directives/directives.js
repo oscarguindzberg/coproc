@@ -1,7 +1,7 @@
 'use strict';
 angular.module('copayApp.directives')
-  .directive('validAddress', ['$rootScope', 'bitcore', 'bitcoreCash',
-    function($rootScope, bitcore, bitcoreCash) {
+  .directive('validAddress', ['$rootScope', 'bitcore',
+    function($rootScope, bitcore) {
       return {
         require: 'ngModel',
         link: function(scope, elem, attrs, ctrl) {
@@ -10,8 +10,8 @@ angular.module('copayApp.directives')
           var Address = bitcore.Address
 
           // Bitcoin Cash address
-          var URICash = bitcoreCash.URI;
-          var AddressCash = bitcoreCash.Address
+          //var URICash = bitcoreCash.URI;
+          //var AddressCash = bitcoreCash.Address
 
           var validator = function(value) {
 
@@ -32,7 +32,7 @@ angular.module('copayApp.directives')
               }
               ctrl.$setValidity('validAddress', isUriValid && (isAddressValidLivenet || isAddressValidTestnet));
               return value;
-            } else if (/^bitcoincash:/.test(value)) {
+            } /*else if (/^bitcoincash:/.test(value)) {
               var isUriValid = URICash.isValid(value);
               if (isUriValid) {
                 uri = new URICash(value);
@@ -40,7 +40,7 @@ angular.module('copayApp.directives')
               }
               ctrl.$setValidity('validAddress', isUriValid && (isAddressValidLivenet));
               return value;
-            }
+            }*/
 
             if (typeof value == 'undefined') {
               ctrl.$pristine = true;
@@ -50,8 +50,8 @@ angular.module('copayApp.directives')
             // Regular Address: try Bitcoin and Bitcoin Cash
             var regularAddressLivenet = Address.isValid(value, 'livenet');
             var regularAddressTestnet = Address.isValid(value, 'testnet');
-            var regularAddressCashLivenet = AddressCash.isValid(value, 'livenet');
-            ctrl.$setValidity('validAddress', (regularAddressLivenet || regularAddressTestnet || regularAddressCashLivenet));
+            //var regularAddressCashLivenet  = AddressCash.isValid(value, 'livenet');
+            ctrl.$setValidity('validAddress', (regularAddressLivenet || regularAddressTestnet));
             return value;
           };
 

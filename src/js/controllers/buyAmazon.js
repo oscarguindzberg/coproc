@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('buyAmazonController', function($scope, $log, $state, $timeout, $filter, $ionicHistory, $ionicConfig, lodash, amazonService, popupService, profileService, ongoingProcess, configService, walletService, payproService, bwcError, externalLinkService, platformInfo, gettextCatalog, txFormatService) {
 
-  var coin = 'btc';
+  var coin = 'proc';
   var amount;
   var currency;
   var createdTx;

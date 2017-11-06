@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('buyMercadoLibreController', function($scope, $log, $state, $timeout, $filter, $ionicHistory, $ionicConfig, lodash, mercadoLibreService, popupService, profileService, ongoingProcess, configService, walletService, payproService, bwcError, externalLinkService, platformInfo, txFormatService, gettextCatalog) {
 
-  var coin = 'btc';
+  var coin = 'proc';
   var amount;
   var currency;
   var createdTx;

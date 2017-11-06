@@ -13,9 +13,9 @@ bwcModule.provider("bwcService", function() {
       return Client.Bitcore;
     };
 
-    service.getBitcoreCash = function() {
+    /*service.getBitcoreCash = function() {
       return Client.BitcoreCash;
-    };
+    };*/
 
     service.getErrors = function() {
       return Client.errors;
@@ -38,7 +38,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'https://bws.bitpay.com/bws/api',
+        baseUrl: opts.bwsurl || 'http://ec2-34-215-253-171.us-west-2.compute.amazonaws.com/bws/api',
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

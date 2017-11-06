@@ -2,7 +2,7 @@
 
 angular.module('copayApp.controllers').controller('buyGlideraController', function($scope, $log, $state, $timeout, $ionicHistory, $ionicConfig, lodash, glideraService, popupService, profileService, ongoingProcess, walletService, platformInfo, txFormatService) {
 
-  var coin = 'btc';
+  var coin = 'proc';
   var amount;
   var currency;
 

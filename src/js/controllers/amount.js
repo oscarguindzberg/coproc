@@ -31,13 +31,13 @@ angular.module('copayApp.controllers').controller('amountController', function($
       availableUnits = [];
 
       var hasBTCWallets = profileService.getWallets({
-        coin: 'btc'
+        coin: 'proc'
       }).length;
 
       if (hasBTCWallets) {
         availableUnits.push({
           name: 'Bitcoin',
-          id: 'btc',
+          id: 'proc',
           shortName: 'BTC',
         });
       }
@@ -310,7 +310,7 @@ angular.module('copayApp.controllers').controller('amountController', function($
           $scope.alternativeAmount = txFormatService.formatAmount(a * unitToSatoshi, true);
         } else {
           if (result) {
-            $scope.alternativeAmount = 'N/A'; 
+            $scope.alternativeAmount = 'N/A';
           } else {
             $scope.alternativeAmount = null;
           }

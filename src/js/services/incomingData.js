@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.services').factory('incomingData', function($log, $state, $timeout, $ionicHistory, bitcore, bitcoreCash, $rootScope, payproService, scannerService, appConfigService, popupService, gettextCatalog) {
+angular.module('copayApp.services').factory('incomingData', function($log, $state, $timeout, $ionicHistory, bitcore, $rootScope, payproService, scannerService, appConfigService, popupService, gettextCatalog) {
 
   var root = {};
 
@@ -86,7 +86,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
 
     // Bitcoin  URL
     if (bitcore.URI.isValid(data)) {
-        var coin = 'btc';
+        var coin = 'proc';
         var parsed = new bitcore.URI(data);
 
         var addr = parsed.address ? parsed.address.toString() : '';
@@ -106,7 +106,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         }
         return true;
     // Cash URI
-    } else if (bitcoreCash.URI.isValid(data)) {
+    } /*else if (bitcoreCash.URI.isValid(data)) {
         var coin = 'bch';
         var parsed = new bitcoreCash.URI(data);
 
@@ -119,11 +119,11 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         if (parsed.r) {
           payproService.getPayProDetails(parsed.r, function(err, details) {
             if (err) {
-              if (addr && amount) 
+              if (addr && amount)
                 goSend(addr, amount, message, coin);
-              else 
+              else
                 popupService.showAlert(gettextCatalog.getString('Error'), err);
-            } 
+            }
             handlePayPro(details, coin);
           });
         } else {
@@ -148,10 +148,10 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         // Translate address
         $log.debug('address transalated to:' + addr);
         popupService.showConfirm(
-          gettextCatalog.getString('Bitcoin cash Payment'), 
+          gettextCatalog.getString('Bitcoin cash Payment'),
           gettextCatalog.getString('Payment address was translated to new Bitcoin Cash address format: ' + addr),
-          gettextCatalog.getString('OK'), 
-          gettextCatalog.getString('Cancel'), 
+          gettextCatalog.getString('OK'),
+          gettextCatalog.getString('Cancel'),
           function(ret) {
             if (!ret) return false;
 
@@ -162,11 +162,11 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
             if (parsed.r) {
               payproService.getPayProDetails(parsed.r, function(err, details) {
                 if (err) {
-                  if (addr && amount) 
+                  if (addr && amount)
                     goSend(addr, amount, message, coin);
-                  else 
+                  else
                     popupService.showAlert(gettextCatalog.getString('Error'), err);
-                } 
+                }
                 handlePayPro(details, coin);
               });
             } else {
@@ -176,7 +176,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         );
       return true;
       // Plain URL
-    } else if (/^https?:\/\//.test(data)) {
+    } */else if (/^https?:\/\//.test(data)) {
 
       payproService.getPayProDetails(data, function(err, details) {
         if (err) {
@@ -199,7 +199,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       } else {
         goToAmountPage(data);
       }
-    } else if (bitcoreCash.Address.isValid(data, 'livenet')) {
+    } /*else if (bitcoreCash.Address.isValid(data, 'livenet')) {
       if ($state.includes('tabs.scan')) {
         root.showMenu({
           data: data,
@@ -209,7 +209,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       } else {
         goToAmountPage(data, 'bch');
       }
-    } else if (data && data.indexOf(appConfigService.name + '://glidera') === 0) {
+    } */ else if (data && data.indexOf(appConfigService.name + '://glidera') === 0) {
       var code = getParameterByName('code', data);
       $ionicHistory.nextViewOptions({
         disableAnimate: true

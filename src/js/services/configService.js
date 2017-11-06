@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.bitpay.com/bws/api',
+      url: 'http://ec2-34-215-253-171.us-west-2.compute.amazonaws.com/bws/api',
     },
 
     download: {
@@ -49,7 +49,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
         unitName: 'BTC',
         unitToSatoshi: 100000000,
         unitDecimals: 8,
-        unitCode: 'btc',
+        unitCode: 'proc',
         alternativeName: 'US Dollar',
         alternativeIsoCode: 'USD',
       }
