@@ -4,12 +4,10 @@
   "author": "Procurrency",
   "version": "*VERSION*",
   "keywords": [
-    "bitcoin",
+    "procurrency",
     "wallet",
-    "bitpay",
-    "copay",
-    "multisignature",
-    "bitcore"
+    "procpay",
+    "multisignature"
   ],
   "main": "www/index.html",
   "title": "*USERVISIBLENAME*",
