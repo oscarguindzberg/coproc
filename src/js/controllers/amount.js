@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('copayApp.controllers').controller('amountController', function($scope, $filter, $timeout, $ionicScrollDelegate, $ionicHistory, gettextCatalog, platformInfo, lodash, configService, rateService, $stateParams, $window, $state, $log, txFormatService, ongoingProcess, popupService, bwcError, payproService, profileService, bitcore, amazonService, nodeWebkitService) {
+angular.module('copayApp.controllers').controller('amountController', function($scope, $filter, $timeout, $ionicScrollDelegate, $ionicHistory, gettextCatalog, platformInfo, lodash, configService, rateService, $stateParams, $window, $state, $log, txFormatService, ongoingProcess, popupService, bwcError, payproService, profileService, bitcore, nodeWebkitService) {
   var _id;
   var unitToSatoshi;
   var satToUnit;
@@ -36,26 +36,12 @@ angular.module('copayApp.controllers').controller('amountController', function($
 
       if (hasBTCWallets) {
         availableUnits.push({
-          name: 'Bitcoin',
+          name: 'Procurrency',
           id: 'proc',
-          shortName: 'BTC',
+          shortName: 'PROC',
         });
       }
 
-
-      var hasBCHWallets = profileService.getWallets({
-        coin: 'bch'
-      }).length;
-
-
-
-      if (hasBCHWallets) {
-        availableUnits.push({
-          name: 'Bitcoin Cash',
-          id: 'bch',
-          shortName: 'BCH',
-        });
-      };
 
       unitIndex = 0;
 

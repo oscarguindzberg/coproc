@@ -1053,6 +1053,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
        *
        */
 
+      /*
       .state('tabs.giftcards.mercadoLibre', {
         url: '/mercadoLibre',
         views: {
@@ -1097,7 +1098,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             templateUrl: 'views/buyMercadoLibre.html'
           }
         }
-      })
+      })*/
 
       /*
        *
