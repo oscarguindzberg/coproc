@@ -1,13 +1,13 @@
 {
   "name": "distribution-not-selected",
-  "description": "Choose a distribution by running 'npm run apply:procpay'.",
+  "description": "Choose a distribution by running 'npm run apply:coproc'.",
   "primary-package-json": "See the tempate in app-template/package.json",
   "pre-commit": "unstage-package",
   "changes": "changes to this file can be commited with the --no-verify option",
   "scripts": {
-    "postinstall": "npm run apply:procpay && echo && echo \"Repo configured for standard Procpay distribution.\" && echo",
-    "start": "echo && echo \"Choose a distribution by running 'npm run apply:procpay'.\" && echo",
-    "apply:procpay": "npm i fs-extra@0.30 && cd app-template && node apply.js procpay && cd .. && npm i",
+    "postinstall": "npm run apply:coproc && echo && echo \"Repo configured for standard Coproc distribution.\" && echo",
+    "start": "echo && echo \"Choose a distribution by running 'npm run apply:coproc'.\" && echo",
+    "apply:coproc": "npm i fs-extra@0.30 && cd app-template && node apply.js coproc && cd .. && npm i",
     "unstage-package": "git reset package.json",
     "clean-all": "git clean -dfx"
   },
