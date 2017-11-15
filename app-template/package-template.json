@@ -6,7 +6,7 @@
   "keywords": [
     "procurrency",
     "wallet",
-    "procpay",
+    "coproc",
     "multisignature"
   ],
   "main": "www/index.html",
@@ -54,7 +54,7 @@
     "bezier-easing": "^2.0.3",
     "bhttp": "1.2.1",
     "bitauth": "^0.2.1",
-    "proccore-wallet-client": "../proccore-wallet-client",
+    "proccore-wallet-client": "git://github.com/procommerce-io/proccore-wallet-client#procurrency",
     "bower": "^1.7.9",
     "cordova-android": "5.1.1",
     "cordova-custom-config": "^3.0.5",
@@ -106,7 +106,7 @@
     "run:android-release":            "cordova run android --device --release",
     "log:android":            "adb logcat | grep chromium",
     "sign:android":           "rm -f platforms/android/build/outputs/apk/android-release-signed-aligned.apk; jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../copay.keystore -signedjar platforms/android/build/outputs/apk/android-release-signed.apk  platforms/android/build/outputs/apk/android-release-unsigned.apk copay_play && $ANDROID_HOME/build-tools/26.0.1/zipalign -v 4 platforms/android/build/outputs/apk/android-release-signed.apk platforms/android/build/outputs/apk/android-release-signed-aligned.apk",
-    "apply:procpay":            "npm i fs-extra && cd app-template && node apply.js procpay && npm i && cordova prepare",
+    "apply:coproc":            "npm i fs-extra && cd app-template && node apply.js coproc && npm i && cordova prepare",
     "test":                   "echo \"no package tests configured\"",
     "clean":                  "trash platforms && trash plugins && cordova prepare",
     "unstage-package":        "git reset package.json",
