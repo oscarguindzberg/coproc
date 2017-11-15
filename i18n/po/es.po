@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: copay\n"
+"Project-Id-Version: coproc\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: crowdin.com\n"
-"X-Crowdin-Project: copay\n"
+"X-Crowdin-Project: coproc\n"
 "X-Crowdin-Language: es-ES\n"
 "X-Crowdin-File: template.pot\n"
 "Last-Translator: cmgustavo83\n"
@@ -178,12 +178,12 @@ msgid "All Addresses"
 msgstr "Todas las direcciones"
 
 #: www/views/modals/wallet-balance.html:18
-msgid "All of your bitcoin wallet balance may not be available for immediate spending."
+msgid "All of your procurrency wallet balance may not be available for immediate spending."
 msgstr "Todo el balance de tu billetera puede que no esté disponible para su uso inmediato."
 
 #: www/views/tab-receive.html:25
-msgid "All signing devices must be added to this multisig wallet before bitcoin addresses can be created."
-msgstr "Todos los dispositivos de los firmantes deben ser agregados a esta billetera compartido antes de que se puedan crear direcciones bitcoin."
+msgid "All signing devices must be added to this multisig wallet before procurrency addresses can be created."
+msgstr "Todos los dispositivos de los firmantes deben ser agregados a esta billetera compartido antes de que se puedan crear direcciones procurrency."
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -229,19 +229,19 @@ msgid "An update to this app is available. For your security, please update to t
 msgstr "Actualización disponible. Por seguridad, actualiza a la versión más reciente."
 
 #: www/views/backupWarning.html:14
-msgid "Anyone with your backup phrase can access or spend your bitcoin."
+msgid "Anyone with your backup phrase can access or spend your procurrency."
 msgstr "Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
 
 #: www/views/addresses.html:94
-msgid "Approximate Bitcoin network fee to transfer wallet's balance (with normal priority)"
-msgstr "Comisión aproximada de la red Bitcoin para transferir el saldo de esta billetera (con prioridad normal)"
+msgid "Approximate Procurrency network fee to transfer wallet's balance (with normal priority)"
+msgstr "Comisión aproximada de la red Procurrency para transferir el saldo de esta billetera (con prioridad normal)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
 msgstr "¿Estás siendo observado?"
 
 #: src/js/controllers/preferencesExternal.js:15
-msgid "Are you being watched? Anyone with your recovery phrase can access or spend your bitcoin."
+msgid "Are you being watched? Anyone with your recovery phrase can access or spend your procurrency."
 msgstr "¿Estás siendo observado? Cualquier persona con tu copia de seguridad puede gastar tus bitcoins."
 
 #: src/js/controllers/copayers.js:56
@@ -354,52 +354,52 @@ msgstr "Tarjetas BitPay Visa&reg;"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Bitcoin Address"
-msgstr "Dirección Bitcoin"
+msgid "Procurrency Address"
+msgstr "Dirección Procurrency"
 
 #: www/views/cashScan.html:4
-msgid "Bitcoin Cash (BCH) Balances"
-msgstr "Saldos Bitcoin Cash (BCH)"
+msgid "Procurrency Cash (BCH) Balances"
+msgstr "Saldos Procurrency Cash (BCH)"
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
-msgid "Bitcoin Cash Support"
-msgstr "Soportar Bitcoin Cash"
+msgid "Procurrency Cash Support"
+msgstr "Soportar Procurrency Cash"
 
 #: www/views/tab-home.html:98
 #: www/views/tab-settings.html:115
-msgid "Bitcoin Cash Wallets"
-msgstr "Billeteras Bitcoin Cash"
+msgid "Procurrency Cash Wallets"
+msgstr "Billeteras Procurrency Cash"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
-msgid "Bitcoin Network Fee Policy"
-msgstr "Política de Comisión de la Red Bitcoin"
+msgid "Procurrency Network Fee Policy"
+msgstr "Política de Comisión de la Red Procurrency"
 
 #: www/views/tab-home.html:83
 #: www/views/tab-settings.html:107
-msgid "Bitcoin Wallets"
-msgstr "Billeteras Bitcoin"
+msgid "Procurrency Wallets"
+msgstr "Billeteras Procurrency"
 
 #: src/js/services/incomingData.js:151
-msgid "Bitcoin cash Payment"
-msgstr "Pago en Bitcoin cash"
+msgid "Procurrency cash Payment"
+msgstr "Pago en Procurrency cash"
 
 #: www/views/onboarding/tour.html:31
-msgid "Bitcoin is a currency."
-msgstr "Bitcoin es una moneda."
+msgid "Procurrency is a currency."
+msgstr "Procurrency es una moneda."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Bitcoin is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Bitcoin es diferente &ndash; no se puede resguardar con ningún servicio web o banco."
+msgid "Procurrency is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "Procurrency es diferente &ndash; no se puede resguardar con ningún servicio web o banco."
 
 #: www/views/onboarding/tour.html:18
-msgid "Bitcoin is secure,<br>digital money."
-msgstr "Bitcoin es seguro,<br> dinero digital."
+msgid "Procurrency is secure,<br>digital money."
+msgstr "Procurrency es seguro,<br> dinero digital."
 
 #: www/views/preferencesFee.html:11
-msgid "Bitcoin transactions include a fee collected by miners on the network."
+msgid "Procurrency transactions include a fee collected by miners on the network."
 msgstr "Las transacciones de bitcoins incluyen una comisión recogida por los mineros de la red."
 
 #: www/views/buyAmazon.html:108
@@ -429,12 +429,12 @@ msgid "Buy"
 msgstr "Comprar"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Bitcoin"
-msgstr "Comprar &amp; Vender Bitcoin"
+msgid "Buy &amp; Sell Procurrency"
+msgstr "Comprar &amp; Vender Procurrency"
 
 #: www/views/tab-send.html:35
-msgid "Buy Bitcoin"
-msgstr "Comprar Bitcoin"
+msgid "Buy Procurrency"
+msgstr "Comprar Procurrency"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -446,7 +446,7 @@ msgid "Buy from"
 msgstr "Comprar desde"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Bitcoin..."
+msgid "Buying Procurrency..."
 msgstr "Comprando Bitcoins..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -628,8 +628,8 @@ msgid "Contribute Translations"
 msgstr "Contribuir"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Bitcoin Cash using new version numbers addresses"
-msgstr "Copay sólo soporta Bitcoin Cash utilizando la nueva versión de direcciones"
+msgid "Copay only supports Procurrency Cash using new version numbers addresses"
+msgstr "Copay sólo soporta Procurrency Cash utilizando la nueva versión de direcciones"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
@@ -820,7 +820,7 @@ msgstr "Crear billetera compartida"
 #: www/views/onboarding/tour.html:51
 #: www/views/tab-home.html:75
 #: www/views/tab-send.html:36
-msgid "Create bitcoin wallet"
+msgid "Create procurrency wallet"
 msgstr "Crear billetera"
 
 #: www/views/tab-create-personal.html:131
@@ -947,7 +947,7 @@ msgid "Duplicating wallet..."
 msgstr "Duplicando billetera..."
 
 #: www/views/addresses.html:19
-msgid "Each bitcoin wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
+msgid "Each procurrency wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
 msgstr "Cada billetera puede generar billones de direcciones desde sus 12 palabras. Se genera una nueva dirección automáticamente cada vez que se recibe un pago."
 
 #: src/js/services/feeService.js:13
@@ -972,8 +972,8 @@ msgid "Empty addresses limit reached. New addresses cannot be generated."
 msgstr "Se ha alcanzado el límite de direcciones vacías. No se pueden generar nuevas direcciones."
 
 #: www/views/preferencesCash.html:17
-msgid "Enable Bitcoin Cash wallet creation and operation within the App."
-msgstr "Habilita la creación y operación de billetera Bitcoin Cash dentro de la aplicación."
+msgid "Enable Procurrency Cash wallet creation and operation within the App."
+msgstr "Habilita la creación y operación de billetera Procurrency Cash dentro de la aplicación."
 
 #: www/views/tab-scan.html:19
 msgid "Enable camera access in your device settings to get started."
@@ -1405,8 +1405,8 @@ msgstr "Billetera física"
 
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
-msgstr "Billeteras en hardware no son compatibles con Bitcoin Cash todavía"
+msgid "Hardware wallets are not yet supported with Procurrency Cash"
+msgstr "Billeteras en hardware no son compatibles con Procurrency Cash todavía"
 
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
@@ -1485,7 +1485,7 @@ msgid "I understand"
 msgstr "Entiendo"
 
 #: www/views/onboarding/disclaimer.html:21
-msgid "I understand that if this app is moved to another device or deleted, my bitcoin can only be recovered with the backup phrase."
+msgid "I understand that if this app is moved to another device or deleted, my procurrency can only be recovered with the backup phrase."
 msgstr "Entiendo que si esta aplicación es borrada, mis fondos pueden recuperarse únicamente con la copia de seguridad."
 
 #: www/views/onboarding/disclaimer.html:18
@@ -1858,7 +1858,7 @@ msgid "No access key defined"
 msgstr "No se ha definido la llave de acceso"
 
 #: www/views/onboarding/backupRequest.html:5
-msgid "No backup, no bitcoin."
+msgid "No backup, no procurrency."
 msgstr "Sin copia de seguridad, no hay bitcoins."
 
 #: www/views/addressbook.html:19
@@ -1914,8 +1914,8 @@ msgid "No wallets available to receive funds"
 msgstr "No hay billeteras disponibles para recibir fondos"
 
 #: www/views/cashScan.html:15
-msgid "No wallets eligible for Bitcoin Cash support"
-msgstr "No hay billeteras elegibles para soporte a Bitcoin Cash"
+msgid "No wallets eligible for Procurrency Cash support"
+msgstr "No hay billeteras elegibles para soporte a Procurrency Cash"
 
 #: src/js/controllers/cashScan.js:58
 msgid "Non BIP44 wallet"
@@ -1959,8 +1959,8 @@ msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the
 msgstr "Nota: Si esta billetera BCH fue duplicada desde una billetera BTC, entonces comparten la misma frase de recuperación."
 
 #: www/views/modals/wallets.html:25
-msgid "Notice: only 1-1 (single signature) wallets can be used for sell bitcoin"
-msgstr "Aviso: solo billeteras 1-1 (única firma) pueden ser utilizadas para vender bitcoin"
+msgid "Notice: only 1-1 (single signature) wallets can be used for sell procurrency"
+msgstr "Aviso: solo billeteras 1-1 (única firma) pueden ser utilizadas para vender procurrency"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:61
@@ -2044,8 +2044,8 @@ msgstr "Abrir Proyecto en GitHub"
 
 #: src/js/controllers/bitpayCard.js:123
 #: src/js/controllers/tx-details.js:192
-msgid "Open Insight"
-msgstr "Abrir Insight"
+msgid "Open Procsight"
+msgstr "Abrir Procsight"
 
 #: www/views/tab-scan.html:22
 msgid "Open Settings"
@@ -2103,8 +2103,8 @@ msgid "Paste the backup plain text code"
 msgstr "Pegar copia de seguridad en texto plano"
 
 #: www/views/bitpayCardIntro.html:28
-msgid "Pay 0% fees to turn bitcoin into dollars."
-msgstr "Paga 0% de comisión para transformar tus bitcoin en dólares."
+msgid "Pay 0% fees to turn procurrency into dollars."
+msgstr "Paga 0% de comisión para transformar tus procurrency en dólares."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2164,8 +2164,8 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "Pago aceptado. Se transmitirá por Glidera. En caso de que haya un problema, puedes eliminar la transacción 6 horas después de fue creada."
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Bitcoin Cash address format:"
-msgstr "La dirección de pago fue traducida al nuevo formato de Bitcoin Cash:"
+msgid "Payment address was translated to new Procurrency Cash address format:"
+msgstr "La dirección de pago fue traducida al nuevo formato de Procurrency Cash:"
 
 #: www/views/modals/txp-details.html:107
 msgid "Payment details"
@@ -2502,8 +2502,8 @@ msgid "Scan your fingerprint please"
 msgstr "Por favor ingrese su huella digital"
 
 #: www/views/preferencesCash.html:23
-msgid "Scan your wallets for Bitcoin Cash"
-msgstr "Explora tus billeteras para Bitcoin Cash"
+msgid "Scan your wallets for Procurrency Cash"
+msgstr "Explora tus billeteras para Procurrency Cash"
 
 #: src/js/services/onGoingProcess.js:30
 msgid "Scanning Wallet funds..."
@@ -2522,8 +2522,8 @@ msgid "Search Transactions"
 msgstr "Buscar transacciones"
 
 #: www/views/tab-send.html:13
-msgid "Search or enter bitcoin address"
-msgstr "Buscar o introducir dirección bitcoin"
+msgid "Search or enter procurrency address"
+msgstr "Buscar o introducir dirección procurrency"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2554,7 +2554,7 @@ msgid "Self-signed Certificate"
 msgstr "Certificado autofirmado"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Bitcoin..."
+msgid "Selling Procurrency..."
 msgstr "Vendiendo Bitcoins..."
 
 #: www/views/feedback/send.html:13
@@ -2707,8 +2707,8 @@ msgid "Show advanced options"
 msgstr "Mostrar opciones avanzadas"
 
 #: www/views/tab-send.html:37
-msgid "Show bitcoin address"
-msgstr "Mostrar dirección bitcoin"
+msgid "Show procurrency address"
+msgstr "Mostrar dirección procurrency"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
@@ -2755,8 +2755,8 @@ msgid "Slide to send"
 msgstr "Deslizar para enviar"
 
 #: www/views/cashScan.html:56
-msgid "Some of your wallets are not eligible for Bitcoin Cash support. You can try to access BCH funds from these wallets using the"
-msgstr "Algunas de sus billeteras no pueden ser seleccionadas para darle soporte Bitcoin Cash. Pruebe acceder a sus fondos BCH utilizando la"
+msgid "Some of your wallets are not eligible for Procurrency Cash support. You can try to access BCH funds from these wallets using the"
+msgstr "Algunas de sus billeteras no pueden ser seleccionadas para darle soporte Procurrency Cash. Pruebe acceder a sus fondos BCH utilizando la"
 
 #: src/js/controllers/create.js:88
 #: src/js/controllers/join.js:71
@@ -2776,12 +2776,12 @@ msgid "Spending Password needed"
 msgstr "Se necesita la contraseña para pagos"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Bitcoin network fees"
+msgid "Spending this balance will need significant Procurrency network fees"
 msgstr "Gastar este balance requiere de significativas comisiones"
 
 #: www/views/tab-send.html:28
-msgid "Start sending bitcoin"
-msgstr "Empezar a enviar bitcoin"
+msgid "Start sending procurrency"
+msgstr "Empezar a enviar procurrency"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2801,8 +2801,8 @@ msgid "Super Economy"
 msgstr "Súper Económico"
 
 #: www/views/preferencesCash.html:11
-msgid "Support Bitcoin Cash"
-msgstr "Soportar Bitcoin Cash"
+msgid "Support Procurrency Cash"
+msgstr "Soportar Procurrency Cash"
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
@@ -2822,8 +2822,8 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "ESTA ACCIÓN NO SE PUEDE REVERTIR"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with bitcoin."
-msgstr "Toma control de tu dinero,<br>comienza a utilizar bitcoin."
+msgid "Take control of your money,<br>get started with procurrency."
+msgstr "Toma control de tu dinero,<br>comienza a utilizar procurrency."
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -2878,15 +2878,15 @@ msgid "The Ledger Chrome application is not installed"
 msgstr "La aplicación Ledger de Chrome no esta instalada"
 
 #: www/views/modals/wallet-balance.html:55
-msgid "The amount of bitcoin immediately spendable from this wallet."
+msgid "The amount of procurrency immediately spendable from this wallet."
 msgstr "Total de bitcoins disponibles en esta billetera para su uso inmediato."
 
 #: www/views/modals/wallet-balance.html:93
-msgid "The amount of bitcoin stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
+msgid "The amount of procurrency stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
 msgstr "La cantidad de bitcoins almacenados en esta billetera que se utilizan como \"inputs\" en la transacción pendiente. Esa cantidad se determina en base a los \"unspent transaction outputs\" asociados con la billetera, estos pueden que sean mayor al monto enviado en la transacción en cuestión."
 
 #: www/views/modals/wallet-balance.html:74
-msgid "The amount of bitcoin stored in this wallet with less than 1 blockchain confirmation."
+msgid "The amount of procurrency stored in this wallet with less than 1 blockchain confirmation."
 msgstr "La cantidad de bitcoins almacenados en esta billetera que poseen menos de 1 confirmación en \"Blockchain\"."
 
 #: www/views/tab-import-phrase.html:5
@@ -2941,7 +2941,7 @@ msgid "The spend proposal is not pending"
 msgstr "La propuesta de gasto no esta pendiente"
 
 #: www/views/modals/wallet-balance.html:36
-msgid "The total amount of bitcoin stored in this wallet."
+msgid "The total amount of procurrency stored in this wallet."
 msgstr "El total de bitcoins almacenados en esta billetera."
 
 #: www/views/preferencesHistory.html:27
@@ -2972,11 +2972,11 @@ msgid "This app is fantastic!"
 msgstr "¡Esta aplicación es fantástica!"
 
 #: www/views/onboarding/tour.html:47
-msgid "This app stores your bitcoin with cutting-edge security."
+msgid "This app stores your procurrency with cutting-edge security."
 msgstr "Esta aplicación almacena tus bitcoins con seguridad avanzada."
 
 #: src/js/controllers/confirm.js:523
-msgid "This bitcoin payment request has expired."
+msgid "This procurrency payment request has expired."
 msgstr "Esta solicitud de pago ha caducado."
 
 #: www/views/join.html:133
@@ -2990,8 +2990,8 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Esta frase de recuperación fue creada con una contraseña. Para recuperar esta billetera, la frase de recuperación y la contraseña son necesarios."
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Bitcoin network fees. Spending these funds will need a Bitcoin network fee cost comparable to the funds itself."
-msgstr "Este monto en la transacción es demasiado bajo comparado con las comisiones de la red Bitcoin. Para gastar estos fondos se requiere disponer de un monto superior a la comisión requerida por la red Bitcoin."
+msgid "This transaction amount is too small compared to current Procurrency network fees. Spending these funds will need a Procurrency network fee cost comparable to the funds itself."
+msgstr "Este monto en la transacción es demasiado bajo comparado con las comisiones de la red Procurrency. Para gastar estos fondos se requiere disponer de un monto superior a la comisión requerida por la red Procurrency."
 
 #: www/views/tx-details.html:87
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
@@ -3017,11 +3017,11 @@ msgid "To"
 msgstr "Para"
 
 #: www/views/tab-send.html:32
-msgid "To get started, buy bitcoin or share your address. You can receive bitcoin from any wallet or service."
-msgstr "Para empezar, compra bitcoin o comparte tu dirección. Puedes recibir bitcoin desde cualquier billetera o servicio."
+msgid "To get started, buy procurrency or share your address. You can receive procurrency from any wallet or service."
+msgstr "Para empezar, compra procurrency o comparte tu dirección. Puedes recibir procurrency desde cualquier billetera o servicio."
 
 #: www/views/tab-send.html:33
-msgid "To get started, you'll need to create a bitcoin wallet and get some bitcoin."
+msgid "To get started, you'll need to create a procurrency wallet and get some procurrency."
 msgstr "Para empezar, necesitarás crear una billetera y obtener bitcoins."
 
 #: src/js/services/bitpayAccountService.js:73
@@ -3113,7 +3113,7 @@ msgid "Try again in {{expires}}"
 msgstr "Intenta de nuevo en {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
-msgid "Turn bitcoin into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
+msgid "Turn procurrency into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
 msgstr "Convierta Bitcoins en Dólares, use Visa<sup>&reg;</sup>."
 
 #: www/views/tab-import-phrase.html:17
@@ -3191,8 +3191,8 @@ msgstr "Ver Términos de Uso"
 
 #: src/js/controllers/bitpayCard.js:122
 #: src/js/controllers/tx-details.js:191
-msgid "View Transaction on Insight"
-msgstr "Ver Transacción en Insight"
+msgid "View Transaction on Procsight"
+msgstr "Ver Transacción en Procsight"
 
 #: src/js/controllers/tab-home.js:148
 msgid "View Update"
@@ -3471,16 +3471,16 @@ msgid "You can make contributions by signing up on our Crowdin community transla
 msgstr "Se pueden hacer contribuciones al registrarse en nuestro proyecto de traducciones en Crowdin. ¡Esperamos tener noticias tuyas!"
 
 #: www/views/tab-scan.html:16
-msgid "You can scan bitcoin addresses, payment requests, paper wallets, and more."
-msgstr "Puedes escanear direcciones bitcoin, solicitudes de pago, billeteras de papel y más."
+msgid "You can scan procurrency addresses, payment requests, paper wallets, and more."
+msgstr "Puedes escanear direcciones procurrency, solicitudes de pago, billeteras de papel y más."
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
 msgstr "Puede ver las últimas novedades y contribuir a nuestra aplicación de código abierto visitando nuestro proyecto en GitHub."
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend bitcoin at millions of websites and stores worldwide."
-msgstr "Puedes utilizar bitcoin en millones de páginas web y tiendas en todo el mundo."
+msgid "You can spend procurrency at millions of websites and stores worldwide."
+msgstr "Puedes utilizar procurrency en millones de páginas web y tiendas en todo el mundo."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3491,7 +3491,7 @@ msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
 msgstr "Puedes cambiarlo por otras monedas como Dólares, Euros o Libras."
 
 #: www/views/onboarding/tour.html:46
-msgid "You control your bitcoin."
+msgid "You control your procurrency."
 msgstr "Controlas tus bitcoins."
 
 #: www/views/modals/chooseFeeLevel.html:64
@@ -3516,12 +3516,12 @@ msgid "Your Gift Cards"
 msgstr "Tus Tarjetas de Regalo"
 
 #: www/views/includes/confirmBackupPopup.html:6
-msgid "Your bitcoin wallet is backed up!"
-msgstr "¡Su billetera bitcoin está resguardada!"
+msgid "Your procurrency wallet is backed up!"
+msgstr "¡Su billetera procurrency está resguardada!"
 
 #: www/views/tab-home.html:36
-msgid "Your bitcoin wallet is ready!"
-msgstr "¡Su billetera bitcoin está lista!"
+msgid "Your procurrency wallet is ready!"
+msgstr "¡Su billetera procurrency está lista!"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
@@ -3611,8 +3611,8 @@ msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain inform
 msgstr "{{appName}} depende de Bitcore Wallet Service (BWS) para obtener información sobre blockchain y sincronización del Copayer. La configuración por defecto apunta a https://bws.bitpay.com (instancia pública de BitPay)."
 
 #: src/js/controllers/confirm.js:408
-msgid "{{fee}} will be deducted for bitcoin networking fees."
-msgstr "{{fee}} se descontará por comisión de la red bitcoin."
+msgid "{{fee}} will be deducted for procurrency networking fees."
+msgstr "{{fee}} se descontará por comisión de la red procurrency."
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"

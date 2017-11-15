@@ -14,25 +14,17 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'http://ec2-34-215-253-171.us-west-2.compute.amazonaws.com/bws/api',
+      url: 'https://proccore-wallet-service.com/bws/api',
     },
 
     download: {
-      bitpay: {
-        url: 'https://bitpay.com/wallet'
-      },
-      copay: {
-        url: 'https://copay.io/#download'
+      coproc: {
+        url: 'https://procommerce.io/'
       }
     },
 
     rateApp: {
-      bitpay: {
-        ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1149581638&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.bitpay.wallet',
-        wp: ''
-      },
-      copay: {
+      coproc: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
         android: 'https://play.google.com/store/apps/details?id=com.bitpay.copay',
         wp: ''
@@ -72,11 +64,11 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://insight.bitpay.com:443/api/rates',
+      url: 'https://procsight.com:3000/api/rates',
     },
 
     release: {
-      url: 'https://api.github.com/repos/bitpay/copay/releases/latest'
+      url: 'https://api.github.com/repos/procommerce-io/coproc/releases/latest'
     },
 
     pushNotificationsEnabled: true,

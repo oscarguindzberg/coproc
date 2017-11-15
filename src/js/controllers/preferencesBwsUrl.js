@@ -25,11 +25,11 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'http://ec2-34-215-253-171.us-west-2.compute.amazonaws.com/bws/api'
+          bws = 'https://proccore-wallet-service.com/bws/api'
           break;
         case 'sta':
         case 'staging':
-          bws = 'http://ec2-34-215-253-171.us-west-2.compute.amazonaws.com/bws/api'
+          bws = 'https://proccore-wallet-service.com/bws/api'
           break;
         case 'loc':
         case 'local':

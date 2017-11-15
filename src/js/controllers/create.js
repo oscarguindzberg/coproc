@@ -97,7 +97,7 @@ angular.module('copayApp.controllers').controller('createController',
 
       */
 
-      if (appConfigService.name == 'copay') {
+      /*if (appConfigService.name == 'copay') {
         if (n > 1 && walletService.externalSource.ledger.supported)
           seedOptions.push({
             id: walletService.externalSource.ledger.id,
@@ -120,10 +120,11 @@ angular.module('copayApp.controllers').controller('createController',
             supportsTestnet: walletService.externalSource.intelTEE.supportsTestnet
           });
         }
-      }
+      }*/
 
       $scope.seedOptions = seedOptions;
     };
+
 
     $scope.setTotalCopayers = function(tc) {
       $scope.formData.totalCopayers = tc;
@@ -177,7 +178,7 @@ angular.module('copayApp.controllers').controller('createController',
 
       if ($scope.formData.seedSource.id == walletService.externalSource.ledger.id || $scope.formData.seedSource.id == walletService.externalSource.trezor.id || $scope.formData.seedSource.id == walletService.externalSource.intelTEE.id) {
         if ($scope.formData.coin == 'bch') {
-          popupService.showAlert(gettextCatalog.getString('Error'), gettextCatalog.getString('Hardware wallets are not yet supported with Bitcoin Cash'));
+          popupService.showAlert(gettextCatalog.getString('Error'), gettextCatalog.getString('Hardware wallets are not yet supported with Procurrency Cash'));
           return;
         }
 

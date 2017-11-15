@@ -38,7 +38,7 @@ bwcModule.provider("bwcService", function() {
 
       //note opts use `bwsurl` all lowercase;
       var bwc = new Client({
-        baseUrl: opts.bwsurl || 'http://ec2-34-215-253-171.us-west-2.compute.amazonaws.com/bws/api',
+        baseUrl: opts.bwsurl || 'https://proccore-wallet-service.com/bws/api',
         verbose: opts.verbose,
         timeout: 100000,
         transports: ['polling'],

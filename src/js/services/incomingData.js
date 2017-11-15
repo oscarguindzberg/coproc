@@ -69,8 +69,8 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       }, 100);
     }
     // data extensions for Payment Protocol with non-backwards-compatible request
-    if ((/^bitcoin(cash)?:\?r=[\w+]/).exec(data)) {
-      data = decodeURIComponent(data.replace(/bitcoin(cash)?:\?r=/, ''));
+    if ((/^procurrency(cash)?:\?r=[\w+]/).exec(data)) {
+      data = decodeURIComponent(data.replace(/procurrency(cash)?:\?r=/, ''));
       $state.go('tabs.send', {}, {
         'reload': true,
         'notify': $state.current.name == 'tabs.send' ? false : true
@@ -84,7 +84,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
 
     data = sanitizeUri(data);
 
-    // Bitcoin  URL
+    // Procurrency  URL
     if (bitcore.URI.isValid(data)) {
         var coin = 'proc';
         var parsed = new bitcore.URI(data);
@@ -131,11 +131,11 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         }
         return true;
 
-    // Cash URI with bitcoin core address version number?
-    } else if (bitcore.URI.isValid(data.replace(/^bitcoincash:/,'bitcoin:'))) {
+    // Cash URI with procurrency core address version number?
+    } else if (bitcore.URI.isValid(data.replace(/^bitcoincash:/,'procurrency:'))) {
         $log.debug('Handling bitcoincash URI with legacy address');
         var coin = 'bch';
-        var parsed = new bitcore.URI(data.replace(/^bitcoincash:/,'bitcoin:'));
+        var parsed = new bitcore.URI(data.replace(/^bitcoincash:/,'procurrency:'));
 
         var oldAddr = parsed.address ? parsed.address.toString() : '';
         if (!oldAddr) return false;
@@ -148,8 +148,8 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
         // Translate address
         $log.debug('address transalated to:' + addr);
         popupService.showConfirm(
-          gettextCatalog.getString('Bitcoin cash Payment'),
-          gettextCatalog.getString('Payment address was translated to new Bitcoin Cash address format: ' + addr),
+          gettextCatalog.getString('Procurrency cash Payment'),
+          gettextCatalog.getString('Payment address was translated to new Procurrency Cash address format: ' + addr),
           gettextCatalog.getString('OK'),
           gettextCatalog.getString('Cancel'),
           function(ret) {
@@ -275,7 +275,7 @@ angular.module('copayApp.services').factory('incomingData', function($log, $stat
       return true;
 
       // Join
-    } else if (data && data.match(/^copay:[0-9A-HJ-NP-Za-km-z]{70,80}$/)) {
+    } else if (data && data.match(/^coproc:[0-9A-HJ-NP-Za-km-z]{70,80}$/)) {
       $state.go('tabs.home', {}, {
         'reload': true,
         'notify': $state.current.name == 'tabs.home' ? false : true

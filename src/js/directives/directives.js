@@ -5,11 +5,11 @@ angular.module('copayApp.directives')
       return {
         require: 'ngModel',
         link: function(scope, elem, attrs, ctrl) {
-          // Bitcoin address
+          // Procurrency address
           var URI = bitcore.URI;
           var Address = bitcore.Address
 
-          // Bitcoin Cash address
+          // Procurrency Cash address
           //var URICash = bitcoreCash.URI;
           //var AddressCash = bitcoreCash.Address
 
@@ -47,7 +47,7 @@ angular.module('copayApp.directives')
               return;
             }
 
-            // Regular Address: try Bitcoin and Bitcoin Cash
+            // Regular Address: try Procurrency and Procurrency Cash
             var regularAddressLivenet = Address.isValid(value, 'livenet');
             var regularAddressTestnet = Address.isValid(value, 'testnet');
             //var regularAddressCashLivenet  = AddressCash.isValid(value, 'livenet');
