@@ -38,7 +38,7 @@ Clone the repo and open the directory:
 
 ```sh
 git clone https://github.com/procommerce-io/coproc.git
-cd copay
+cd coproc
 ```
 
 Ensure you have [Node](https://nodejs.org/) installed, then install and start Copay:
