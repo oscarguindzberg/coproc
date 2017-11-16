@@ -783,7 +783,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
           }
         }
       })
-      .state('onboarding.collectEmail', {
+      /*.state('onboarding.collectEmail', {
         url: '/collectEmail/:walletId',
         views: {
           'onboarding': {
@@ -791,7 +791,7 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
             controller: 'collectEmailController'
           }
         }
-      })
+      })*/
       .state('onboarding.backupRequest', {
         url: '/backupRequest/:walletId',
         views: {
@@ -1241,13 +1241,13 @@ angular.module('copayApp').config(function(historicLogProvider, $provide, $logPr
 
         //onboarding with no back views
         var matchWelcome = $ionicHistory.currentStateName() == 'onboarding.welcome' ? true : false;
-        var matchCollectEmail = $ionicHistory.currentStateName() == 'onboarding.collectEmail' ? true : false;
+        //var matchCollectEmail = $ionicHistory.currentStateName() == 'onboarding.collectEmail' ? true : false;
         var matchBackupRequest = $ionicHistory.currentStateName() == 'onboarding.backupRequest' ? true : false;
         var backedUp = $ionicHistory.backView().stateName == 'onboarding.backup' ? true : false;
         var noBackView = $ionicHistory.backView().stateName == 'starting' ? true : false;
         var matchDisclaimer = $ionicHistory.currentStateName() == 'onboarding.disclaimer' && (backedUp || noBackView) ? true : false;
 
-        var fromOnboarding = matchCollectEmail | matchBackupRequest | matchWelcome | matchDisclaimer;
+        var fromOnboarding = /*matchCollectEmail |*/ matchBackupRequest | matchWelcome | matchDisclaimer;
 
         //views with disable backbutton
         var matchComplete = $ionicHistory.currentStateName() == 'tabs.rate.complete' ? true : false;

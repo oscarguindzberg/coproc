@@ -90,8 +90,8 @@ msgid "Add Account"
 msgstr "Dodaj konto"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add BitPay Account?"
-msgstr "Dodać konto BitPay?"
+msgid "Add Coproc Account?"
+msgstr "Dodać konto Coproc?"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -135,8 +135,8 @@ msgid "Add funds"
 msgstr "Dodaj fundusze"
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this BitPay account ({{email}})?"
-msgstr "Dodać to konto BitPay ({{email}})?"
+msgid "Add this Coproc account ({{email}})?"
+msgstr "Dodać to konto Coproc ({{email}})?"
 
 #: www/views/add.html:3
 msgid "Add wallet"
@@ -269,13 +269,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "Czy na pewno chcesz pominąć?"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your BitPay Card account?"
-msgstr "Czy na pewno chcesz się wylogować z konta BitPay Card?"
+msgid "Are you sure you would like to log out of your Coproc Card account?"
+msgstr "Czy na pewno chcesz się wylogować z konta Coproc Card?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your BitPay Card ({{lastFourDigits}}) from this device?"
-msgstr "Czy na pewno chcesz usunąć kartę BitPay ({{lastFourDigits}}) z tego urządzenia?"
+msgid "Are you sure you would like to remove your Coproc Card ({{lastFourDigits}}) from this device?"
+msgstr "Czy na pewno chcesz usunąć kartę Coproc ({{lastFourDigits}}) z tego urządzenia?"
 
 #: www/views/includes/walletInfo.html:10
 msgid "Auditable"
@@ -349,8 +349,8 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "Pamiętaj aby przechowywać swoją kluczową frazę w bezpiecznym miejscu. Jeśli ta aplikacja zostanie usunięta, nie będziesz mógł bez niej odzyskać swoich pieniędzy."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "BitPay Visa&reg; Cards"
-msgstr "Karty BitPay Visa&reg;"
+msgid "Coproc Visa&reg; Cards"
+msgstr "Karty Coproc Visa&reg;"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
@@ -600,8 +600,8 @@ msgid "Confirming"
 msgstr "Potwierdzający"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my BitPay Card"
-msgstr "Podłącz kartę BitPay"
+msgid "Connect my Coproc Card"
+msgstr "Podłącz kartę Coproc"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -1001,8 +1001,8 @@ msgid "Enter Spending Password"
 msgstr "Wprowadź hasło wypłaty"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your BitPay account"
-msgstr "Wprowadź podwójne uwierzytelnienie swojego konta BitPay"
+msgid "Enter Two Factor for your Coproc account"
+msgstr "Wprowadź podwójne uwierzytelnienie swojego konta Coproc"
 
 #: www/views/amount.html:4
 msgid "Enter amount"
@@ -1137,7 +1137,7 @@ msgid "Error in Payment Protocol"
 msgstr "Błąd w protokole płatności"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing BitPay Account"
+msgid "Error pairing Coproc Account"
 msgstr "Błąd parowania konta Bitpay"
 
 #: src/js/controllers/paperWallet.js:41
@@ -1230,8 +1230,8 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "Twój komentarz nie może zostać wysłany. Spróbuj ponownie później."
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching BitPay Account..."
-msgstr "Odzyskiwanie konta BitPay..."
+msgid "Fetching Coproc Account..."
+msgstr "Odzyskiwanie konta Coproc..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching payment information"
@@ -1272,8 +1272,8 @@ msgid "From"
 msgstr "Z"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From BitPay account"
-msgstr "Z konta BitPay"
+msgid "From Coproc account"
+msgstr "Z konta Coproc"
 
 #: www/views/tab-import-phrase.html:57
 msgid "From Hardware Wallet"
@@ -1324,8 +1324,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "Wypłać pieniądze gdziekolwiek jesteś, z dowolnego bankomatu honorującego karty Visa<sup>&reg;</sup>. Od tej transakcji bank może pobrać prowizję."
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from BitPay"
-msgstr "Otrzymywanie wiadomości i aktualizacji z BitPay"
+msgid "Get news and updates from Coproc"
+msgstr "Otrzymywanie wiadomości i aktualizacji z Coproc"
 
 #: www/views/onboarding/welcome.html:8
 msgctxt "button"
@@ -1509,8 +1509,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Jeśli opcja jest włączona, portfele będą również starać się wydawać niepotwierdzone środki. Może to prowadzić do opóźnień transakcji."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor BitPay can recover your funds without a backup."
-msgstr "Jeśli to urządzenie zostanie wymienione lub jeśli aplikacja zostanie usunięta, ani ty, ani BitPay nie będzie mógł odzyskać środków bez kopii zapasowej."
+msgid "If this device is replaced or this app is deleted, neither you nor Coproc can recover your funds without a backup."
+msgstr "Jeśli to urządzenie zostanie wymienione lub jeśli aplikacja zostanie usunięta, ani ty, ani Coproc nie będzie mógł odzyskać środków bez kopii zapasowej."
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1938,8 +1938,8 @@ msgid "Not enough funds for fee"
 msgstr "Brak środków na opłacenie prowizji"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even BitPay can access it."
-msgstr "Nawet BitPay nie ma do niego dostępu."
+msgid "Not even Coproc can access it."
+msgstr "Nawet Coproc nie ma do niego dostępu."
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -2076,8 +2076,8 @@ msgid "Open website"
 msgstr "Otwórz stronę"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the BitPay Card"
-msgstr "Zamów kartę BitPay"
+msgid "Order the Coproc Card"
+msgstr "Zamów kartę Coproc"
 
 #: www/views/join.html:105
 #: www/views/join.html:96
@@ -2415,16 +2415,16 @@ msgid "Remove"
 msgstr "Usuń"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove BitPay Account?"
-msgstr "Usunąć konto BitPay?"
+msgid "Remove Coproc Account?"
+msgstr "Usunąć konto Coproc?"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove BitPay Card?"
-msgstr "Usunąć kartę BitPay?"
+msgid "Remove Coproc Card?"
+msgstr "Usunąć kartę Coproc?"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your BitPay account will remove all associated BitPay account data from this device. Are you sure you would like to remove your BitPay Account ({{email}}) from this device?"
-msgstr "Usunięcie konta BitPay spowoduje usunięcie z tego urządzenia wszystkich skojarzonych z tym kontem danych. Czy na pewno chcesz usunąć konto BitPay ({{email}}) z tego urządzenia?"
+msgid "Removing your Coproc account will remove all associated Coproc account data from this device. Are you sure you would like to remove your Coproc Account ({{email}}) from this device?"
+msgstr "Usunięcie konta Coproc spowoduje usunięcie z tego urządzenia wszystkich skojarzonych z tym kontem danych. Czy na pewno chcesz usunąć konto Coproc ({{email}}) z tego urządzenia?"
 
 #: www/views/join.html:116
 #: www/views/join.html:124
@@ -2906,8 +2906,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "Maksymalna liczba kolejnych niewykorzystanych adresów (20) została osiągnięta. Gdy na jeden z nieużywanych adresów wpłynie zapłata, nowy adres zostanie wygenerowany i pokazany w zakładce Otrzymane."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the BitPay website."
-msgstr "Oficjalne Warunki użytkowania w języku angielskim dostępne są na stronie internetowej BitPay."
+msgid "The official English Terms of Service are available on the Coproc website."
+msgstr "Oficjalne Warunki użytkowania w języku angielskim dostępne są na stronie internetowej Coproc."
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -3025,7 +3025,7 @@ msgid "To get started, you'll need to create a procurrency wallet and get some p
 msgstr "Aby rozpocząć należy utworzyć portfel i dostać trochę bitcoinów."
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your BitPay account - {{email}}"
+msgid "To {{reason}} you must first add your Coproc account - {{email}}"
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:48
@@ -3499,7 +3499,7 @@ msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte.
 msgstr "Nie należy ustawiać opłatę wyższą niż {{maxFeeRecommended}} satoshis/bajt."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your BitPay Card."
+msgid "You will need to log back for fill in your Coproc Card."
 msgstr ""
 
 #: www/views/preferencesNotifications.html:34
@@ -3507,8 +3507,8 @@ msgid "You'll receive email notifications about payments sent and received from 
 msgstr "Będziesz otrzymywać powiadomienia e-mail o płatności wysyłanych i odbieranych ze swoich portfeli."
 
 #: www/views/bitpayCard.html:50
-msgid "Your BitPay Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr "Twoja karta BitPay jest gotowa. Zasil kartę, aby zacząć ją używać w sklepach i bankomatach na całym świecie."
+msgid "Your Coproc Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgstr "Twoja karta Coproc jest gotowa. Zasil kartę, aby zacząć ją używać w sklepach i bankomatach na całym świecie."
 
 #: www/views/mercadoLibre.html:57
 #: www/views/mercadoLibreCards.html:6
@@ -3575,8 +3575,8 @@ msgid "[Scanning Funds]"
 msgstr ""
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your BitPay Visa card(s)"
-msgstr "dodaj swoje karty BitPay Visa"
+msgid "add your Coproc Visa card(s)"
+msgstr "dodaj swoje karty Coproc Visa"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3607,8 +3607,8 @@ msgid "{{amountStr}} for Mercado Livre Brazil Gift Card"
 msgstr ""
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (BitPay's public BWS instance)."
-msgstr "{{appName}} jest zależny od Bitcore Wallet Service (BWS) jeśli chodzi o informacje dotyczące blokcheina, sieci i synchronizacji współwłaścicieli portfela. Domyślnie jest to https://bws.bitpay.com (BitPay's public BWS instance)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.bitpay.com (Coproc's public BWS instance)."
+msgstr "{{appName}} jest zależny od Bitcore Wallet Service (BWS) jeśli chodzi o informacje dotyczące blokcheina, sieci i synchronizacji współwłaścicieli portfela. Domyślnie jest to https://bws.bitpay.com (Coproc's public BWS instance)."
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for procurrency networking fees."
