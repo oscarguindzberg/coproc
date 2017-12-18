@@ -1,9 +1,7 @@
 {
   "project_info": {
     "project_number": "149194066736",
-    "firebase_url": "https://bitpay-wallet.firebaseio.com",
-    "project_id": "coproc-wallet",
-    "storage_bucket": "bitpay-wallet.appspot.com"
+    "project_id": "coproc-wallet"
   },
   "client": [
     {
