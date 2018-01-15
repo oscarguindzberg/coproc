@@ -3,7 +3,10 @@
 angular.module('copayApp.controllers').controller('preferencesLanguageController',
   function($scope, $log, $ionicHistory, configService, profileService, uxLanguage, walletService, externalLinkService, gettextCatalog) {
 
-    $scope.availableLanguages = uxLanguage.getLanguages();
+      $scope.availableLanguages = uxLanguage.getLanguages();
+
+      console.log("estoy en el controlador de lenguaje");
+      console.log(uxLanguage);
 
     $scope.openExternalLink = function() {
       var url = 'https://crowdin.com/project/coproc';

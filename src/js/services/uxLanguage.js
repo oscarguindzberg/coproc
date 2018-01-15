@@ -105,7 +105,7 @@ angular.module('copayApp.services')
     root.init = function(cb) {
       configService.whenAvailable(function(config) {
         var userLang = config.wallet.settings.defaultLanguage;
-
+	  
         if (userLang && userLang != root.currentLanguage) {
           root._set(userLang);
         } else {
