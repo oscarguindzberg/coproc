@@ -5,9 +5,9 @@
 
 Coproc is a secure bitcoin wallet platform for both desktop and mobile devices. Coproc uses [Proccore Wallet Service](https://github.com/procommerce-io/proccore-wallet-service) (PWS) for peer synchronization and network interfacing.
 
-[](Binary versions of Coproc are available for download at [Copay.io](https://copay.io/#download). Copay Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify Copay Signatures`](https://github.com/procommerce-io/coproc#how-to-verify-copay-signatures) for details.)
+[//]: # (Binary versions of Coproc are available for download at [Copay.io](https://copay.io/#download). Copay Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify Copay Signatures`](https://github.com/procommerce-io/coproc#how-to-verify-copay-signatures) for details.)
 
-[](For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/procommerce-io/coproc/wiki/COPAY---FAQ).)
+[//]: # (For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/procommerce-io/coproc/wiki/COPAY---FAQ).)
 
 ## Main Features
 
@@ -16,7 +16,7 @@ Coproc is a secure bitcoin wallet platform for both desktop and mobile devices. 
 - Easy spending proposal flow for shared wallets and group payments
 - [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) Hierarchical deterministic (HD) address generation and wallet backups
 - Device-based security: all private keys are stored locally, not in the cloud
-[](- Support for Procurrency testnet wallets)
+[//]: # (- Support for Procurrency testnet wallets)
 - Synchronous access across all major mobile and desktop platforms
 - Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure bitcoin payments
 - Support for over 150 currency pricing options and unit denomination in BTC or bits
