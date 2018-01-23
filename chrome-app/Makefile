@@ -1,6 +1,6 @@
 # Configs
 BUILDDIR=build
-ZIPFILE=copay-chrome-extension.zip
+ZIPFILE=coproc-chrome-extension.zip
 
 INCLUDE=$(shell cat ./include)
 INITIAL=./initial.js

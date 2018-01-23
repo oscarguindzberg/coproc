@@ -1,13 +1,7 @@
-<img src="" alt="Coproc" width="79">
-
 [![Build Status](https://secure.travis-ci.org/bitpay/copay.svg)](http://travis-ci.org/bitpay/copay)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/copay/localized.png)](https://crowdin.com/project/copay)
 
 Coproc is a secure bitcoin wallet platform for both desktop and mobile devices. Coproc uses [Proccore Wallet Service](https://github.com/procommerce-io/proccore-wallet-service) (PWS) for peer synchronization and network interfacing.
-
-[//]: # (Binary versions of Coproc are available for download at [Copay.io](https://copay.io/#download). Copay Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify Copay Signatures`](https://github.com/procommerce-io/coproc#how-to-verify-copay-signatures) for details.)
-
-For a list of frequently asked questions please visit the [Coproc FAQ](https://github.com/procommerce-io/coproc/wiki/FAQ).
 
 ## Main Features
 
@@ -171,18 +165,16 @@ grunt
 make
 ```
 
-On success, the Chrome extension will be located at: `browser-extensions/chrome/copay-chrome-extension`.  To install it go to `chrome://extensions/` in your browser and ensure you have the 'developer mode' option enabled in the settings.  Then click on "Load unpacked chrome extension" and choose the directory mentioned above.
+On success, the Chrome extension will be located at: `browser-extensions/chrome/coproc-chrome-extension`.  To install it go to `chrome://extensions/` in your browser and ensure you have the 'developer mode' option enabled in the settings.  Then click on "Load unpacked chrome extension" and choose the directory mentioned above.
 
 ## Configuration
 
 ### Enable External Services
 
-To enable external services, set the `COPROC_EXTERNAL_SERVICES_CONFIG_LOCATION` or `BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` environment variable to the location of your configuration before running the `apply` task.
+To enable external services, set the `COPROC_EXTERNAL_SERVICES_CONFIG_LOCATION` environment variable to the location of your configuration before running the `apply` task.
 
 ```sh
-COPROC_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.copay/externalServices.json" npm run apply:coproc
-# or
-BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.bitpay/externalServices.json" npm run apply:bitpay
+COPROC_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.coproc/externalServices.json" npm run apply:coproc
 ```
 
 ## About Coproc
@@ -201,12 +193,6 @@ For more information regarding how addresses are generated using this procedure,
 
 Coproc uses BIP39 mnemonics for backing up wallets.  The BIP44 standard is used for wallet address derivation. Multisig wallets use P2SH addresses, while non-multisig wallets use P2PKH.
 
-Information about backup and recovery procedures is available at: https://github.com/procommerce-io/coproc/blob/master/backupRecovery.md
-
-Previous versions of Copay used files as backups. See the following section.
-
-It is possible to recover funds from a Copay Wallet without using Copay or the Wallet Service, check the [Copay Recovery Tool](https://github.com/procommerce-io/coproc-recovery).
-
 ## Wallet Export Format
 
 Coproc encrypts the backup with the [Stanford JS Crypto Library](http://bitwiseshiftleft.github.io/sjcl/).  To extract the private key of your wallet you can use https://bitwiseshiftleft.github.io/sjcl/demo/, copy the backup to 'ciphertext' and enter your password.  The resulting JSON will have a key named: `xPrivKey`, that is the extended private key of your wallet.  That information is enough to sign any transaction from your wallet, so be careful when handling it!
@@ -221,7 +207,7 @@ Since version 1.5, Coproc uses the root `m/48'` for hardware multisignature wall
 
 ## Proccore Wallet Service
 
-Copay depends on [Proccore Wallet Service](https://github.com/procommerce-io/proccore-wallet-service) (PWS) for blockchain information, networking and Copayer synchronization.  A PWS instance can be setup and operational within minutes or you can use a public instance like `https://proccore-wallet-service.com/`.  Switching between PWS instances is very simple and can be done with a click from within coproc.  PWS also allows Coproc to interoperate with other wallets like [Proccore Wallet CLI] (https://github.com/procommerce-io/proccore-wallet).
+Coproc depends on [Proccore Wallet Service](https://github.com/procommerce-io/proccore-wallet-service) (PWS) for blockchain information, networking and Copayer synchronization.  A PWS instance can be setup and operational within minutes or you can use a public instance like `https://proccore-wallet-service.com/`.  Switching between PWS instances is very simple and can be done with a click from within coproc.  PWS also allows Coproc to interoperate with other wallets like [Proccore Wallet CLI] (https://github.com/procommerce-io/proccore-wallet).
 
 ## Hardware Wallet Support
 
@@ -250,28 +236,6 @@ Every time you need to sign a transaction, the device will be needed to perform 
 
 Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using Coproc, see: https://github.com/procommerce-io/coproc/blob/master/backupRecovery.md#hardware-wallets
 
-## Translations
-Coproc uses standard gettext PO files for translations and [Crowdin](https://crowdin.com/project/copay) as the front-end tool for translators.  To join our team of translators, please create an account at [Crowdin](https://crowdin.com) and translate the Copay documentation and application text into your native language.
-
-To download and build using the latest translations from Crowdin, please use the following commands:
-
-```sh
-cd i18n
-node crowdin_download.js
-```
-
-This will download all partial and complete language translations while also cleaning out any untranslated ones.
-
-**Translation Credits:**
-- Japanese: @dabura667
-- French: @kirvx
-- Portuguese: @pmichelazzo
-- Spanish: @cmgustavo
-- German: @saschad
-- Russian: @vadim0
-
-*Gracias totales!*
-
 ## Release Schedules
 Coproc uses the `MAJOR.MINOR.BATCH` convention for versioning.  Any release that adds features should modify the MINOR or MAJOR number.
 
@@ -281,4 +245,4 @@ Coproc uses the `MAJOR.MINOR.BATCH` convention for versioning.  Any release that
 
 ## License
 
-Copay is released under the MIT License.  Please refer to the [LICENSE](https://github.com/procommerce-io/coproc/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
+Coproc is released under the MIT License.  Please refer to the [LICENSE](https://github.com/procommerce-io/coproc/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
