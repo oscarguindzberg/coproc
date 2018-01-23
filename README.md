@@ -1,7 +1,7 @@
 [![Build Status](https://secure.travis-ci.org/bitpay/copay.svg)](http://travis-ci.org/bitpay/copay)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/copay/localized.png)](https://crowdin.com/project/copay)
 
-Coproc is a secure bitcoin wallet platform for both desktop and mobile devices. Coproc uses [Proccore Wallet Service](https://github.com/procommerce-io/proccore-wallet-service) (PWS) for peer synchronization and network interfacing.
+Coproc is a secure procurrency wallet platform for both desktop and mobile devices. Coproc uses [Proccore Wallet Service](https://github.com/procommerce-io/proccore-wallet-service) (PWS) for peer synchronization and network interfacing.
 
 ## Main Features
 
