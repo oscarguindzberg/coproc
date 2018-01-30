@@ -64,7 +64,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
     },
 
     rates: {
-      url: 'https://procsight.com:3000/api/rates',
+      url: 'https://procsight.com/api/rates',
     },
 
     release: {

@@ -16,7 +16,7 @@ angular.module('copayApp.controllers').controller('txDetailsController', functio
     $scope.isShared = $scope.wallet.credentials.n > 1;
     $scope.txsUnsubscribedForNotifications = config.confirmedTxsNotifications ? !config.confirmedTxsNotifications.enabled : true;
 
-    blockexplorerUrl = 'procsight.com:3000';
+    blockexplorerUrl = 'procsight.com';
 
     txConfirmNotification.checkIfEnabled(txId, function(res) {
       $scope.txNotification = {
