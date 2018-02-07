@@ -14,12 +14,10 @@ Coproc is a secure procurrency wallet platform for both desktop and mobile devic
 - Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure payments
 - Mnemonic (BIP39) support for wallet backups
 - Paper wallet sweep support (BIP38)
-- Hardware wallet support (Trezor and Ledger) (only in Chrome App version)
-- Email notifications for payments and transfers
 - Push notifications (only available for ios and android versions)
 - Customizable wallet naming and background colors
 - Multiple languages supported
-- Available for [iOS](), [Android](), [Windows Phone](), [Chrome App](), [Linux](https://github.com/procommerce-io/coproc/releases/latest), [Windows](https://github.com/procommerce-io/coproc/releases/latest) and [OS X](https://github.com/procommerce-io/coproc/releases/latest) devices
+- Available for [iOS](), [Android](), [Linux](https://github.com/procommerce-io/coproc/releases/latest), [Windows](https://github.com/procommerce-io/coproc/releases/latest) and [OS X](https://github.com/procommerce-io/coproc/releases/latest) devices
 
 ## Testing in a Browser
 
