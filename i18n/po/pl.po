@@ -387,7 +387,7 @@ msgid "Procurrency cash Payment"
 msgstr ""
 
 #: www/views/onboarding/tour.html:31
-msgid "Procurrency is a currency."
+msgid "Procurrency is a digital currency."
 msgstr "Procurrency jest walutą."
 
 #: www/views/onboarding/disclaimer.html:15
@@ -2822,7 +2822,7 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "TEJ CZYNNOŚCI NIE MOŻNA COFNĄĆ"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with procurrency."
+msgid "Take control of your digital money,<br>get started with procurrency."
 msgstr "Przejmij kontrolę nad swoimi pieniędzmi,<br>zacznij korzystać z bitcoinów."
 
 #: www/views/walletDetails.html:132
@@ -3479,7 +3479,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "Możesz zobaczyć postępy prac i przyczynić się do rozwoju tej aplikacji open source odwiedzając nasz projekt na GitHub."
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend procurrency at millions of websites and stores worldwide."
+msgid "In the future you will be able to spend procurrency at millions of physical and online businesses worldwide."
 msgstr "Bitcoiny możesz wydać w milionach sklepów i stron internetowych na całym świecie."
 
 #: www/views/backup.html:15
@@ -3487,7 +3487,7 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr "Nadal możesz go wyeksportować w Zaawansowane &gt; Eksport."
 
 #: www/views/onboarding/tour.html:32
-msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
+msgid "You can trade it for other digital currencies on multiple exchanges."
 msgstr "Możesz je wymienić na inne waluty, takie jak dolary amerykańskie, euro lub funty."
 
 #: www/views/onboarding/tour.html:46

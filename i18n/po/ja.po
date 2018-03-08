@@ -389,7 +389,7 @@ msgid "Procurrency cash Payment"
 msgstr "ビーキャッシュペイメント"
 
 #: www/views/onboarding/tour.html:31
-msgid "Procurrency is a currency."
+msgid "Procurrency is a digital currency."
 msgstr "ビットコインは通貨の一つ"
 
 #: www/views/onboarding/disclaimer.html:15
@@ -2826,7 +2826,7 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "＊＊＊注意＊＊＊ このアクションを元に戻すことはできません！！！"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with procurrency."
+msgid "Take control of your digital money,<br>get started with procurrency."
 msgstr "お金のコントロールを取り戻そう、<br>ビットコインをはじめよう"
 
 #: www/views/walletDetails.html:132
@@ -3485,7 +3485,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "GitHubのページにて最近の開発動向を見たり、改善案のソースコードの貢献したりすることができます。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend procurrency at millions of websites and stores worldwide."
+msgid "In the future you will be able to spend procurrency at millions of physical and online businesses worldwide."
 msgstr "世界中のECサイトや店舗でビットコインを使って支払いができます。"
 
 #: www/views/backup.html:15
@@ -3493,7 +3493,7 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr "バックアップファイルの作成は「上級者向け」⇒「エクスポート」からアクセスできます。"
 
 #: www/views/onboarding/tour.html:32
-msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
+msgid "You can trade it for other digital currencies on multiple exchanges."
 msgstr "米ドル、ユーロ、ポンドなど他の通貨との取引ができます。"
 
 #: www/views/onboarding/tour.html:46

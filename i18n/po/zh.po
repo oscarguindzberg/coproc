@@ -387,7 +387,7 @@ msgid "Procurrency cash Payment"
 msgstr "小比特幣支付"
 
 #: www/views/onboarding/tour.html:31
-msgid "Procurrency is a currency."
+msgid "Procurrency is a digital currency."
 msgstr "比特币是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
@@ -2822,8 +2822,8 @@ msgid "THIS ACTION CANNOT BE REVERSED"
 msgstr "此操作无法撤消"
 
 #: www/views/onboarding/welcome.html:5
-msgid "Take control of your money,<br>get started with procurrency."
-msgstr "把你的钱，<br>得到控制开始用比特币。"
+msgid "Take control of your digital money,<br>get started with procurrency."
+msgstr "把你的钱，<br>得到控制开始用比特币。"        
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -3479,7 +3479,7 @@ msgid "You can see the latest developments and contribute to this open source ap
 msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程序通过在 GitHub 上访问我们的项目。"
 
 #: www/views/onboarding/tour.html:19
-msgid "You can spend procurrency at millions of websites and stores worldwide."
+msgid "In the future you will be able to spend procurrency at millions of physical and online businesses worldwide."
 msgstr "你可以花比特币在数以百万计的网站和世界各地的商店。"
 
 #: www/views/backup.html:15
@@ -3487,7 +3487,7 @@ msgid "You can still export it from Advanced &gt; Export."
 msgstr "你仍然可以将其导出从高级 &gt; 出口。"
 
 #: www/views/onboarding/tour.html:32
-msgid "You can trade it for other currencies like US Dollars, Euros, or Pounds."
+msgid "You can trade it for other digital currencies on multiple exchanges."
 msgstr "你可以换其他货币，如美元、 欧元或英镑。"
 
 #: www/views/onboarding/tour.html:46
