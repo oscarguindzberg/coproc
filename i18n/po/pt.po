@@ -179,7 +179,7 @@ msgstr "Todos os endereços"
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your procurrency wallet balance may not be available for immediate spending."
-msgstr "Todos os seus bitcoins na carteira poderão não estar disponíveis de imediato para gastar."
+msgstr "Todos os seus procurrencys na carteira poderão não estar disponíveis de imediato para gastar."
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before procurrency addresses can be created."
@@ -230,7 +230,7 @@ msgstr "Está disponível uma actualização para esta aplicação. Para sua seg
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your procurrency."
-msgstr "Qualquer pessoa com sua frase de segurança pode aceder ou gastar os seus bitcoins."
+msgstr "Qualquer pessoa com sua frase de segurança pode aceder ou gastar os seus procurrencys."
 
 #: www/views/addresses.html:94
 msgid "Approximate Procurrency network fee to transfer wallet's balance (with normal priority)"
@@ -1486,7 +1486,7 @@ msgstr "Eu compreendi"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my procurrency can only be recovered with the backup phrase."
-msgstr "Eu entendi que se esse aplicativo for movido para outro dispositivo ou deletado, meus bitcoins só podem ser recuperados com frase de backup."
+msgstr "Eu entendi que se esse aplicativo for movido para outro dispositivo ou deletado, meus procurrencys só podem ser recuperados com frase de backup."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1642,8 +1642,8 @@ msgid "Is this email address correct?"
 msgstr "Este endereço de e-mail está correto?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "É uma boa ideia evitar a reutilização de endereços - isto também protege a sua privacidade e mantém seus bitcoins seguros, contra prováveis ataques de computadores quânticos."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your procurrencys secure against hypothetical attacks by quantum computers."
+msgstr "É uma boa ideia evitar a reutilização de endereços - isto também protege a sua privacidade e mantém seus procurrencys seguros, contra prováveis ataques de computadores quânticos."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1960,7 +1960,7 @@ msgstr "Nota: se esta carteira BCH foi duplicada de uma carteira BTC, elas compa
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell procurrency"
-msgstr "Aviso: Apenas Carteiras 1-1 (de assinatura única) podem ser usadas para vender bitcoins"
+msgstr "Aviso: Apenas Carteiras 1-1 (de assinatura única) podem ser usadas para vender procurrencys"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:61
@@ -2060,8 +2060,8 @@ msgid "Open Website"
 msgstr "Abrir Site"
 
 #: src/js/controllers/preferencesCash.js:32
-msgid "Open bitcoincash.org?"
-msgstr "Abrir bitcoincash.org?"
+msgid "Open procurrencycash.org?"
+msgstr "Abrir procurrencycash.org?"
 
 #: src/js/controllers/cashScan.js:18
 msgid "Open the recovery tool."
@@ -3018,11 +3018,11 @@ msgstr "Para"
 
 #: www/views/tab-send.html:32
 msgid "To get started, buy procurrency or share your address. You can receive procurrency from any wallet or service."
-msgstr "Para começar, compre bitcoins ou compartilhe seu endereço. Você pode receber bitcoins de qualquer carteira ou serviço."
+msgstr "Para começar, compre procurrencys ou compartilhe seu endereço. Você pode receber procurrencys de qualquer carteira ou serviço."
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a procurrency wallet and get some procurrency."
-msgstr "Para começar, você precisa criar uma carteira de bitcoins e obter alguns bitcoins."
+msgstr "Para começar, você precisa criar uma carteira de procurrencys e obter alguns procurrencys."
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your Coproc account - {{email}}"
@@ -3472,7 +3472,7 @@ msgstr "Você pode fazer contribuições inscrevendo-se no nosso site da comunid
 
 #: www/views/tab-scan.html:16
 msgid "You can scan procurrency addresses, payment requests, paper wallets, and more."
-msgstr "Você pode escanear endereços bitcoins, pedidos de pagamento carteiras de papel e muito mais."
+msgstr "Você pode escanear endereços procurrencys, pedidos de pagamento carteiras de papel e muito mais."
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3480,7 +3480,7 @@ msgstr "Você pode ver os mais recentes desenvolvimentos e contribuir para este 
 
 #: www/views/onboarding/tour.html:19
 msgid "Procurrency was created for usability in the marketplace."
-msgstr "Você pode gastar bitcoins em milhões de sites e lojas em todo o mundo."
+msgstr "Você pode gastar procurrencys em milhões de sites e lojas em todo o mundo."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3517,11 +3517,11 @@ msgstr "Seus Vales-Presente"
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your procurrency wallet is backed up!"
-msgstr "O backup de sua carteira de bitcoins está feito!"
+msgstr "O backup de sua carteira de procurrencys está feito!"
 
 #: www/views/tab-home.html:36
 msgid "Your procurrency wallet is ready!"
-msgstr "Sua carteira de bitcoins está pronta!"
+msgstr "Sua carteira de procurrencys está pronta!"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
@@ -3612,7 +3612,7 @@ msgstr "{{appName}} depende do Bitcore Wallet Service (BWS) para informações s
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for procurrency networking fees."
-msgstr "{{fee}} será deduzido para taxas de rede bitcoins."
+msgstr "{{fee}} será deduzido para taxas de rede procurrencys."
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"

@@ -1633,7 +1633,7 @@ msgid "Is this email address correct?"
 msgstr ""
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your procurrencys secure against hypothetical attacks by quantum computers."
 msgstr ""
 
 #: src/js/controllers/backup.js:76
@@ -2051,7 +2051,7 @@ msgid "Open Website"
 msgstr ""
 
 #: src/js/controllers/preferencesCash.js:32
-msgid "Open bitcoincash.org?"
+msgid "Open procurrencycash.org?"
 msgstr ""
 
 #: src/js/controllers/cashScan.js:18

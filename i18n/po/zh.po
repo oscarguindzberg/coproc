@@ -179,11 +179,11 @@ msgstr "所有地址"
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your procurrency wallet balance may not be available for immediate spending."
-msgstr "所有您的比特币的钱包余额可能无法用于直接支出。"
+msgstr "所有您的專業貨幣的钱包余额可能无法用于直接支出。"
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before procurrency addresses can be created."
-msgstr "比特币地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
+msgstr "專業貨幣地址可以创建之前，签名的所有设备都必须都添加到这个对数钱包。"
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -230,11 +230,11 @@ msgstr "本程序有一个可用的更新。为了您的安全，请更新到最
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your procurrency."
-msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
+msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的專業貨幣。"
 
 #: www/views/addresses.html:94
 msgid "Approximate Procurrency network fee to transfer wallet's balance (with normal priority)"
-msgstr "近似的比特币网络费用将钱包的余额转移 (与正常优先级)"
+msgstr "近似的專業貨幣网络费用将钱包的余额转移 (与正常优先级)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -242,7 +242,7 @@ msgstr "你正在被监视吗？"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your procurrency."
-msgstr "有旁观者么？只要有人知道了你的恢复短语，他就能访问你的比特币，或者花费它。"
+msgstr "有旁观者么？只要有人知道了你的恢复短语，他就能访问你的專業貨幣，或者花费它。"
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -303,7 +303,7 @@ msgstr "BIP32 路径的地址衍生"
 
 #: www/views/cashScan.html:25
 msgid "BTC wallets"
-msgstr "比特幣錢包"
+msgstr "專業貨幣錢包"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -355,16 +355,16 @@ msgstr "Coproc Visa&reg; 牌"
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
 msgid "Procurrency Address"
-msgstr "比特币地址"
+msgstr "專業貨幣地址"
 
 #: www/views/cashScan.html:4
 msgid "Procurrency Cash (BCH) Balances"
-msgstr "小比特幣(BCH) 結餘"
+msgstr "小專業貨幣(BCH) 結餘"
 
 #: www/views/preferencesCash.html:3
 #: www/views/tab-settings.html:47
 msgid "Procurrency Cash Support"
-msgstr "小比特幣支援"
+msgstr "小專業貨幣支援"
 
 #: www/views/tab-home.html:98
 #: www/views/tab-settings.html:115
@@ -375,7 +375,7 @@ msgstr ""
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:90
 msgid "Procurrency Network Fee Policy"
-msgstr "比特币网络手续费策略"
+msgstr "專業貨幣网络手续费策略"
 
 #: www/views/tab-home.html:83
 #: www/views/tab-settings.html:107
@@ -384,23 +384,23 @@ msgstr ""
 
 #: src/js/services/incomingData.js:151
 msgid "Procurrency cash Payment"
-msgstr "小比特幣支付"
+msgstr "小專業貨幣支付"
 
 #: www/views/onboarding/tour.html:31
 msgid "Procurrency is a digital currency."
-msgstr "比特币是一种货币。"
+msgstr "專業貨幣是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Procurrency is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
+msgstr "專業貨幣是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
 msgid "Procurrency is secure,<br>digital money."
-msgstr "比特币是安全的 <br>数字货币。"
+msgstr "專業貨幣是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
 msgid "Procurrency transactions include a fee collected by miners on the network."
-msgstr "比特币交易包括在网络上被矿工所收取的费用。"
+msgstr "專業貨幣交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -430,11 +430,11 @@ msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
 msgid "Buy &amp; Sell Procurrency"
-msgstr "购买或出售比特币"
+msgstr "购买或出售專業貨幣"
 
 #: www/views/tab-send.html:35
 msgid "Buy Procurrency"
-msgstr "购买比特币"
+msgstr "购买專業貨幣"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -447,7 +447,7 @@ msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Procurrency..."
-msgstr "正在发送 比特币..."
+msgstr "正在发送 專業貨幣..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -629,7 +629,7 @@ msgstr "参与翻译"
 
 #: src/js/controllers/confirm.js:130
 msgid "Copay only supports Procurrency Cash using new version numbers addresses"
-msgstr "本公司Copay只支持用新版本數字地址的小比特幣"
+msgstr "本公司Copay只支持用新版本數字地址的小專業貨幣"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
@@ -821,7 +821,7 @@ msgstr "创建自己的免费钱包"
 #: www/views/tab-home.html:75
 #: www/views/tab-send.html:36
 msgid "Create procurrency wallet"
-msgstr "创建比特币的钱包"
+msgstr "创建專業貨幣的钱包"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -940,7 +940,7 @@ msgstr "下载"
 
 #: www/views/cashScan.html:37
 msgid "Duplicate for BCH"
-msgstr "為小比特幣复制"
+msgstr "為小專業貨幣复制"
 
 #: src/js/services/onGoingProcess.js:49
 msgid "Duplicating wallet..."
@@ -948,7 +948,7 @@ msgstr "复制錢包進行中"
 
 #: www/views/addresses.html:19
 msgid "Each procurrency wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "每个比特币钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和显示每个时间你收到付款。"
+msgstr "每个專業貨幣钱包可以从您的 12 字备份生成亿万个地址。一个新的地址是自动生成和显示每个时间你收到付款。"
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -973,7 +973,7 @@ msgstr "已达到空地址限制。无法生成新的地址。"
 
 #: www/views/preferencesCash.html:17
 msgid "Enable Procurrency Cash wallet creation and operation within the App."
-msgstr "能在本應用程序中創建和啟用小比特幣錢包"
+msgstr "能在本應用程序中創建和啟用小專業貨幣錢包"
 
 #: www/views/tab-scan.html:19
 msgid "Enable camera access in your device settings to get started."
@@ -1406,7 +1406,7 @@ msgstr "硬件钱包"
 #: src/js/controllers/create.js:180
 #: src/js/controllers/join.js:145
 msgid "Hardware wallets are not yet supported with Procurrency Cash"
-msgstr "硬體錢包不支持小比特幣"
+msgstr "硬體錢包不支持小專業貨幣"
 
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
@@ -1486,7 +1486,7 @@ msgstr "我知道了"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my procurrency can only be recovered with the backup phrase."
-msgstr "我明白是否这个应用程序是搬到另一个设备或删除，我比特币可以只能进行恢复与备份的短语。"
+msgstr "我明白是否这个应用程序是搬到另一个设备或删除，我專業貨幣可以只能进行恢复与备份的短语。"
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1642,8 +1642,8 @@ msgid "Is this email address correct?"
 msgstr "此电子邮件地址是正确的？"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的比特币安全假设攻击由量子计算机。"
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your procurrencys secure against hypothetical attacks by quantum computers."
+msgstr "它是一个好主意，以避免重用地址 — — 这既能保护您的隐私又保持您的專業貨幣安全假设攻击由量子计算机。"
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1859,7 +1859,7 @@ msgstr "没有定义的访问键"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no procurrency."
-msgstr "没有备份，没有比特币。"
+msgstr "没有备份，没有專業貨幣。"
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1915,7 +1915,7 @@ msgstr "没有可用于接收资金的钱包"
 
 #: www/views/cashScan.html:15
 msgid "No wallets eligible for Procurrency Cash support"
-msgstr "没有錢包合乎支持小比特幣資格"
+msgstr "没有錢包合乎支持小專業貨幣資格"
 
 #: src/js/controllers/cashScan.js:58
 msgid "Non BIP44 wallet"
@@ -1923,7 +1923,7 @@ msgstr "非BIP44錢包"
 
 #: www/views/cashScan.html:46
 msgid "Non eligible BTC wallets"
-msgstr "非合格比特幣錢包"
+msgstr "非合格專業貨幣錢包"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1956,11 +1956,11 @@ msgstr "备注"
 
 #: www/views/backup.html:19
 msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the same recovery phrase."
-msgstr "注意: 如此比特幣錢包由小比特幣复制，他們共享相同恢復短語"
+msgstr "注意: 如此專業貨幣錢包由小專業貨幣复制，他們共享相同恢復短語"
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell procurrency"
-msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖比特币"
+msgstr "注意︰ 只有 1-1 （单签名） 钱包可以用于卖專業貨幣"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:61
@@ -2060,8 +2060,8 @@ msgid "Open Website"
 msgstr "打开网站"
 
 #: src/js/controllers/preferencesCash.js:32
-msgid "Open bitcoincash.org?"
-msgstr "打開小比特幣網址bitcoincash.org?"
+msgid "Open procurrencycash.org?"
+msgstr "打開小專業貨幣網址procurrencycash.org?"
 
 #: src/js/controllers/cashScan.js:18
 msgid "Open the recovery tool."
@@ -2104,7 +2104,7 @@ msgstr "粘贴备份的纯文本代码"
 
 #: www/views/bitpayCardIntro.html:28
 msgid "Pay 0% fees to turn procurrency into dollars."
-msgstr "0%付费以比特币变成美元。"
+msgstr "0%付费以專業貨幣变成美元。"
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2165,7 +2165,7 @@ msgstr "支付以被接受。它将由 Glidera 广播。如果出现问题，它
 
 #: src/js/services/incomingData.js:152
 msgid "Payment address was translated to new Procurrency Cash address format:"
-msgstr "付款地址转化为新的小比特幣地址格式"
+msgstr "付款地址转化为新的小專業貨幣地址格式"
 
 #: www/views/modals/txp-details.html:107
 msgid "Payment details"
@@ -2503,7 +2503,7 @@ msgstr "请扫描你的指纹"
 
 #: www/views/preferencesCash.html:23
 msgid "Scan your wallets for Procurrency Cash"
-msgstr "掃描你的錢包以存取小比特幣"
+msgstr "掃描你的錢包以存取小專業貨幣"
 
 #: src/js/services/onGoingProcess.js:30
 msgid "Scanning Wallet funds..."
@@ -2523,7 +2523,7 @@ msgstr "搜索交易"
 
 #: www/views/tab-send.html:13
 msgid "Search or enter procurrency address"
-msgstr "搜索或输入比特币地址"
+msgstr "搜索或输入專業貨幣地址"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2555,7 +2555,7 @@ msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling Procurrency..."
-msgstr "出售比特币......"
+msgstr "出售專業貨幣......"
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2708,7 +2708,7 @@ msgstr "显示高级选项"
 
 #: www/views/tab-send.html:37
 msgid "Show procurrency address"
-msgstr "显示比特币地址"
+msgstr "显示專業貨幣地址"
 
 #: www/views/tab-send.html:59
 msgid "Show more"
@@ -2756,7 +2756,7 @@ msgstr "在此點擊滑動以發送"
 
 #: www/views/cashScan.html:56
 msgid "Some of your wallets are not eligible for Procurrency Cash support. You can try to access BCH funds from these wallets using the"
-msgstr "你有些錢包不合資格得到小比特幣的支持可嘗試連結這些錢包至BCH基金"
+msgstr "你有些錢包不合資格得到小專業貨幣的支持可嘗試連結這些錢包至BCH基金"
 
 #: src/js/controllers/create.js:88
 #: src/js/controllers/join.js:71
@@ -2777,11 +2777,11 @@ msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:173
 msgid "Spending this balance will need significant Procurrency network fees"
-msgstr "这笔交易将需要非常高的比特币网络手续费"
+msgstr "这笔交易将需要非常高的專業貨幣网络手续费"
 
 #: www/views/tab-send.html:28
 msgid "Start sending procurrency"
-msgstr "开始发送比特币"
+msgstr "开始发送專業貨幣"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2802,7 +2802,7 @@ msgstr "超级经济"
 
 #: www/views/preferencesCash.html:11
 msgid "Support Procurrency Cash"
-msgstr "支持小比特幣"
+msgstr "支持小專業貨幣"
 
 #: www/views/paperWallet.html:7
 msgid "Sweep"
@@ -2823,7 +2823,7 @@ msgstr "此操作无法撤消"
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your digital money,<br>get started with procurrency."
-msgstr "把你的钱，<br>得到控制开始用比特币。"        
+msgstr "把你的钱，<br>得到控制开始用專業貨幣。"        
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -2879,15 +2879,15 @@ msgstr "Ledger Chrome 应用程序未安装"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of procurrency immediately spendable from this wallet."
-msgstr "比特币立即可从这个钱包的金额。"
+msgstr "專業貨幣立即可从这个钱包的金额。"
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of procurrency stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "比特币存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
+msgstr "專業貨幣存储在分配作为你挂起的事务建议的输入这个钱包中的金额。量确定使用未用余额交易记录输出与这个钱包关联，可能会与您挂起的事务建议相关联的实际数额超过。"
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of procurrency stored in this wallet with less than 1 blockchain confirmation."
-msgstr "比特币存储在与小于 1 blockchain 确认这个钱包中的金额。"
+msgstr "專業貨幣存储在与小于 1 blockchain 确认这个钱包中的金额。"
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2942,7 +2942,7 @@ msgstr "花费提议不是未决"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of procurrency stored in this wallet."
-msgstr "比特币存储在这个钱包的总量。"
+msgstr "專業貨幣存储在这个钱包的总量。"
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2973,11 +2973,11 @@ msgstr "这个应用程序太棒了 ！"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your procurrency with cutting-edge security."
-msgstr "此应用程序商店你比特币与尖端的安全。"
+msgstr "此应用程序商店你專業貨幣与尖端的安全。"
 
 #: src/js/controllers/confirm.js:523
 msgid "This procurrency payment request has expired."
-msgstr "这比特币付款请求已过期。"
+msgstr "这專業貨幣付款请求已过期。"
 
 #: www/views/join.html:133
 #: www/views/tab-create-personal.html:103
@@ -2991,7 +2991,7 @@ msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复
 
 #: www/views/tx-details.html:91
 msgid "This transaction amount is too small compared to current Procurrency network fees. Spending these funds will need a Procurrency network fee cost comparable to the funds itself."
-msgstr "相对于当前比特币网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
+msgstr "相对于当前專業貨幣网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:87
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
@@ -3018,11 +3018,11 @@ msgstr "发送到"
 
 #: www/views/tab-send.html:32
 msgid "To get started, buy procurrency or share your address. You can receive procurrency from any wallet or service."
-msgstr "若要开始，请买比特币或共享您的地址。你可以从任何钱包或服务接收比特币。"
+msgstr "若要开始，请买專業貨幣或共享您的地址。你可以从任何钱包或服务接收專業貨幣。"
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a procurrency wallet and get some procurrency."
-msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
+msgstr "若要开始，您将需要创建一个專業貨幣的钱包，并获得一些專業貨幣。"
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your Coproc account - {{email}}"
@@ -3114,7 +3114,7 @@ msgstr "在 {{expires}} 中再试一次"
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn procurrency into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "比特币变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
+msgstr "專業貨幣变成美元，刷在接受 Visa<sup>®</sup> 的任何地方。"
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3472,7 +3472,7 @@ msgstr "您可以通过签约我们 Crowdin 社区翻译网站作出贡献。我
 
 #: www/views/tab-scan.html:16
 msgid "You can scan procurrency addresses, payment requests, paper wallets, and more."
-msgstr "您可以扫描比特币地址、 付款申请、 纸钱包和更多。"
+msgstr "您可以扫描專業貨幣地址、 付款申请、 纸钱包和更多。"
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3480,7 +3480,7 @@ msgstr "你可以看到最新的事态发展和贡献这个开放源码应用程
 
 #: www/views/onboarding/tour.html:19
 msgid "Procurrency was created for usability in the marketplace."
-msgstr "你可以花比特币在数以百万计的网站和世界各地的商店。"
+msgstr "你可以花專業貨幣在数以百万计的网站和世界各地的商店。"
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3492,7 +3492,7 @@ msgstr "你可以换其他货币，如美元、 欧元或英镑。"
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your procurrency."
-msgstr "您可以控制您的比特币。"
+msgstr "您可以控制您的專業貨幣。"
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
@@ -3517,11 +3517,11 @@ msgstr "礼品卡"
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your procurrency wallet is backed up!"
-msgstr "你的比特币钱包被备份 ！"
+msgstr "你的專業貨幣钱包被备份 ！"
 
 #: www/views/tab-home.html:36
 msgid "Your procurrency wallet is ready!"
-msgstr "你的比特币钱包是准备好了 ！"
+msgstr "你的專業貨幣钱包是准备好了 ！"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
@@ -3612,7 +3612,7 @@ msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)�
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for procurrency networking fees."
-msgstr "{{fee}} 将比特币网络费用中扣除。"
+msgstr "{{fee}} 将專業貨幣网络费用中扣除。"
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"

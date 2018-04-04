@@ -230,7 +230,7 @@ msgstr "Une mise à jour de cette appli est disponible. Pour votre sécurité, v
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your procurrency."
-msgstr "Quelqu'un disposant de votre phrase de sauvegarde peut dépenser vos bitcoins."
+msgstr "Quelqu'un disposant de votre phrase de sauvegarde peut dépenser vos procurrencys."
 
 #: www/views/addresses.html:94
 msgid "Approximate Procurrency network fee to transfer wallet's balance (with normal priority)"
@@ -242,7 +242,7 @@ msgstr "Êtes-vous surveillé(e) ?"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your procurrency."
-msgstr "Êtes-vous surveillé(e) ? N’importe qui peut dépenser vos bitcoins grâce à votre phrase de récupération."
+msgstr "Êtes-vous surveillé(e) ? N’importe qui peut dépenser vos procurrencys grâce à votre phrase de récupération."
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -430,11 +430,11 @@ msgstr "Acheter"
 
 #: www/views/includes/buyAndSellCard.html:3
 msgid "Buy &amp; Sell Procurrency"
-msgstr "Acheter &amp; vendre des bitcoins"
+msgstr "Acheter &amp; vendre des procurrencys"
 
 #: www/views/tab-send.html:35
 msgid "Buy Procurrency"
-msgstr "Acheter des bitcoins"
+msgstr "Acheter des procurrencys"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -447,7 +447,7 @@ msgstr "Acheter depuis"
 
 #: src/js/services/onGoingProcess.js:40
 msgid "Buying Procurrency..."
-msgstr "Achat de bitcoins..."
+msgstr "Achat de procurrencys..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -1486,7 +1486,7 @@ msgstr "Je comprends"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my procurrency can only be recovered with the backup phrase."
-msgstr "Je comprends que si cette application est déplacée vers un autre appareil ou supprimée, mes bitcoins ne peuvent être récupérés qu'avec la phrase de sauvegarde."
+msgstr "Je comprends que si cette application est déplacée vers un autre appareil ou supprimée, mes procurrencys ne peuvent être récupérés qu'avec la phrase de sauvegarde."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1642,8 +1642,8 @@ msgid "Is this email address correct?"
 msgstr "Cette adresse e-mail est-elle correcte ?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "C’est une bonne idée d'éviter la réutilisation des adresses. Cela fois protège votre anonymat et garde vos bitcoins en sécurité contre les attaques hypothétiques des ordinateurs quantiques."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your procurrencys secure against hypothetical attacks by quantum computers."
+msgstr "C’est une bonne idée d'éviter la réutilisation des adresses. Cela fois protège votre anonymat et garde vos procurrencys en sécurité contre les attaques hypothétiques des ordinateurs quantiques."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1960,7 +1960,7 @@ msgstr "Remarque : si ce portefeuille BCH a été dupliqué à partir d'un port
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell procurrency"
-msgstr "Note : seuls les portefeuilles 1-1 (signature unique) peuvent être utilisés pour vendre des bitcoins"
+msgstr "Note : seuls les portefeuilles 1-1 (signature unique) peuvent être utilisés pour vendre des procurrencys"
 
 #: www/views/preferencesNotifications.html:3
 #: www/views/tab-settings.html:61
@@ -2060,8 +2060,8 @@ msgid "Open Website"
 msgstr "Ouvrir le site internet"
 
 #: src/js/controllers/preferencesCash.js:32
-msgid "Open bitcoincash.org?"
-msgstr "Ouvrir bitcoincash.org ?"
+msgid "Open procurrencycash.org?"
+msgstr "Ouvrir procurrencycash.org ?"
 
 #: src/js/controllers/cashScan.js:18
 msgid "Open the recovery tool."
@@ -2104,7 +2104,7 @@ msgstr "Collez le code texte de sauvegarde"
 
 #: www/views/bitpayCardIntro.html:28
 msgid "Pay 0% fees to turn procurrency into dollars."
-msgstr "Aucun frais pour échanger des bitcoins en dollars."
+msgstr "Aucun frais pour échanger des procurrencys en dollars."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2555,7 +2555,7 @@ msgstr "Certificat auto-signé"
 
 #: src/js/services/onGoingProcess.js:41
 msgid "Selling Procurrency..."
-msgstr "Vente de bitcoins..."
+msgstr "Vente de procurrencys..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2781,7 +2781,7 @@ msgstr "La dépense de ce solde demandera d'importants frais de réseau Procurre
 
 #: www/views/tab-send.html:28
 msgid "Start sending procurrency"
-msgstr "Commencez à envoyer des bitcoins"
+msgstr "Commencez à envoyer des procurrencys"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2879,15 +2879,15 @@ msgstr "L'application Ledger pour Chrome n'est pas installée"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of procurrency immediately spendable from this wallet."
-msgstr "Le montant des bitcoins immédiatement disponibles depuis ce portefeuille."
+msgstr "Le montant des procurrencys immédiatement disponibles depuis ce portefeuille."
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of procurrency stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "Le montant des bitcoins stockés dans ce portefeuille qui est alloué en tant qu'entrées à vos propositions de transaction en attente. Le montant est déterminé en utilisant les sorties de transaction non dépensées associées à ce portefeuille et peut être plus important que les montants réels associés à vos propositions de transaction en attente."
+msgstr "Le montant des procurrencys stockés dans ce portefeuille qui est alloué en tant qu'entrées à vos propositions de transaction en attente. Le montant est déterminé en utilisant les sorties de transaction non dépensées associées à ce portefeuille et peut être plus important que les montants réels associés à vos propositions de transaction en attente."
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of procurrency stored in this wallet with less than 1 blockchain confirmation."
-msgstr "Le montant des bitcoins stockés dans ce portefeuille avec moins d'une confirmation blockchain."
+msgstr "Le montant des procurrencys stockés dans ce portefeuille avec moins d'une confirmation blockchain."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2942,7 +2942,7 @@ msgstr "La proposition de dépense n'est pas en attente"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of procurrency stored in this wallet."
-msgstr "Le montant total des bitcoins stockés dans ce portefeuille."
+msgstr "Le montant total des procurrencys stockés dans ce portefeuille."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2973,7 +2973,7 @@ msgstr "Cette appli est fantastique !"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your procurrency with cutting-edge security."
-msgstr "Cette appli conserve vos bitcoins avec une sécurité de pointe."
+msgstr "Cette appli conserve vos procurrencys avec une sécurité de pointe."
 
 #: src/js/controllers/confirm.js:523
 msgid "This procurrency payment request has expired."
@@ -3018,11 +3018,11 @@ msgstr "À"
 
 #: www/views/tab-send.html:32
 msgid "To get started, buy procurrency or share your address. You can receive procurrency from any wallet or service."
-msgstr "Pour commencer, achetez des bitcoins ou partagez votre adresse. Vous pouvez recevoir des bitcoins de n'importe quel portefeuille ou service."
+msgstr "Pour commencer, achetez des procurrencys ou partagez votre adresse. Vous pouvez recevoir des procurrencys de n'importe quel portefeuille ou service."
 
 #: www/views/tab-send.html:33
 msgid "To get started, you'll need to create a procurrency wallet and get some procurrency."
-msgstr "Pour commencer, vous aurez besoin de créer un portefeuille procurrency et d'obtenir quelques bitcoins."
+msgstr "Pour commencer, vous aurez besoin de créer un portefeuille procurrency et d'obtenir quelques procurrencys."
 
 #: src/js/services/bitpayAccountService.js:73
 msgid "To {{reason}} you must first add your Coproc account - {{email}}"
@@ -3114,7 +3114,7 @@ msgstr "Réessayez dans {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn procurrency into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Convertissez des bitcoins en dollars et dépensez partout où Visa<sup>&reg;</sup> est accepté."
+msgstr "Convertissez des procurrencys en dollars et dépensez partout où Visa<sup>&reg;</sup> est accepté."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3480,7 +3480,7 @@ msgstr "Vous pouvez voir les derniers développements et contribuer à cette app
 
 #: www/views/onboarding/tour.html:19
 msgid "Procurrency was created for usability in the marketplace."
-msgstr "Vous pouvez dépenser des bitcoins dans des millions de sites internet et de boutiques à travers le monde."
+msgstr "Vous pouvez dépenser des procurrencys dans des millions de sites internet et de boutiques à travers le monde."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3492,7 +3492,7 @@ msgstr "Vous pouvez l’échanger contre d'autres monnaies comme le dollar amér
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your procurrency."
-msgstr "Vous contrôlez vos bitcoins."
+msgstr "Vous contrôlez vos procurrencys."
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."

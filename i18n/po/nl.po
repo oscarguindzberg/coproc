@@ -1642,8 +1642,8 @@ msgid "Is this email address correct?"
 msgstr "Is dit emailadres juist?"
 
 #: www/views/addresses.html:25
-msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your bitcoins secure against hypothetical attacks by quantum computers."
-msgstr "Het is aan te raden adressen niet te hergebruiken - dit beschermt uw privacy en beveiligd uw bitcoins tegen een hypothetische aanval door quantum computers."
+msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your procurrencys secure against hypothetical attacks by quantum computers."
+msgstr "Het is aan te raden adressen niet te hergebruiken - dit beschermt uw privacy en beveiligd uw procurrencys tegen een hypothetische aanval door quantum computers."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -2060,8 +2060,8 @@ msgid "Open Website"
 msgstr "Website Openen"
 
 #: src/js/controllers/preferencesCash.js:32
-msgid "Open bitcoincash.org?"
-msgstr "Bitcoincash.org openen?"
+msgid "Open procurrencycash.org?"
+msgstr "Procurrencycash.org openen?"
 
 #: src/js/controllers/cashScan.js:18
 msgid "Open the recovery tool."
