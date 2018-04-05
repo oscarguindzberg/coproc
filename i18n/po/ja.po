@@ -390,7 +390,7 @@ msgstr "ビーキャッシュペイメント"
 
 #: www/views/onboarding/tour.html:31
 msgid "Procurrency is a digital currency."
-msgstr "プロ通貨は通貨の一つ"
+msgstr "ProCurrencyはデジタル通貨です"
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Procurrency is different &ndash; it cannot be safely held with a bank or web service."
@@ -2827,7 +2827,7 @@ msgstr "＊＊＊注意＊＊＊ このアクションを元に戻すことは�
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your digital money,<br>get started with procurrency."
-msgstr "お金のコントロールを取り戻そう、<br>プロ通貨をはじめよう"
+msgstr "自分のデジタル通貨を完全管理、<br>プロ通貨をはじめよう"
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -3486,7 +3486,7 @@ msgstr "GitHubのページにて最近の開発動向を見たり、改善案の
 
 #: www/views/onboarding/tour.html:19
 msgid "Procurrency was created for usability in the marketplace."
-msgstr "世界中のECサイトや店舗でプロ通貨を使って支払いができます。"
+msgstr "ProCurrencyは市場での有用性のために作成されたものです。"
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3494,7 +3494,8 @@ msgstr "バックアップファイルの作成は「上級者向け」⇒「エ
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other digital currencies on multiple exchanges."
-msgstr "米ドル、ユーロ、ポンドなど他の通貨との取引ができます。"
+currencies on multiple exchanges
+msgstr "複数の取引所で他のデジタル通貨とトレードする事が出来ます"
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your procurrency."

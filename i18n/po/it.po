@@ -388,7 +388,7 @@ msgstr "Pagamento Procurrency Cash"
 
 #: www/views/onboarding/tour.html:31
 msgid "Procurrency is a digital currency."
-msgstr "Procurrency è una moneta."
+msgstr "Procurrency è una moneta digitale."
 
 #: www/views/onboarding/disclaimer.html:15
 msgid "Procurrency is different &ndash; it cannot be safely held with a bank or web service."
@@ -2823,7 +2823,7 @@ msgstr "QUESTA AZIONE NON PUÒ ESSERE INVERTITA"
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your digital money,<br>get started with procurrency."
-msgstr "Prendi il controllo del tuo denaro, <br>inizia con procurrency."
+msgstr "Tieni il controllo del tuo denaro digitale."
 
 #: www/views/walletDetails.html:132
 #: www/views/walletDetails.html:52
@@ -3480,7 +3480,7 @@ msgstr "Potete vedere gli ultimi sviluppi e contribuire a questa applicazione op
 
 #: www/views/onboarding/tour.html:19
 msgid "Procurrency was created for usability in the marketplace."
-msgstr "Si può spendere procurrency in milioni di siti web e negozi in tutto il mondo."
+msgstr "ProCurrency è stato creato per garantire l’accesso al mercato."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3488,7 +3488,7 @@ msgstr "È comunque possibile esportare da Avanzate &gt; Esporta."
 
 #: www/views/onboarding/tour.html:32
 msgid "You can trade it for other digital currencies on multiple exchanges."
-msgstr "È possibile scambiarlo con altre valute come i dollari USA, Euro o Sterline."
+msgstr "Puoi fare trading con altre monete digitali su diversi exchange."
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your procurrency."
