@@ -210,11 +210,12 @@ angular.module('copayApp.controllers').controller('confirmController', function(
       return setSendError(msg);
     }
 
-    if (tx.toAmount > Number.MAX_SAFE_INTEGER) {
-      var msg = gettextCatalog.getString('Amount too big');
-      $log.warn(msg);
-      return setSendError(msg);
-    }
+//    Comment out by Oscar to allow to send more than 90 million PROC
+//    if (tx.toAmount > Number.MAX_SAFE_INTEGER) {
+//      var msg = gettextCatalog.getString('Amount too big');
+//      $log.warn(msg);
+//      return setSendError(msg);
+//    }
 
     var txp = {};
 
